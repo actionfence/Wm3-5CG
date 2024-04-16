@@ -2,53 +2,43 @@
 	"jsons":[
 		{
 			"name": "Circle Orboros",
-			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/circle.json"//,
-			//"factionicon": ""
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/circle.json"
 		},
 		{
 			"name": "Crucible Guard",
-			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/crucible.json"//,
-			//"factionicon": ""
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/crucible.json"
 		},
 		{
 			"name": "Cryx",
-			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/cryx.json"//,
-			//"factionicon": ""
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/cryx.json"
 		},
 		{
 			"name": "Cygnar",
-			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/cygnar.json"//,
-			//"factionicon": ""
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/cygnar.json"
 		},
 		{
 			"name": "Khador",
-			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/khador.json"//,
-			//"factionicon": ""
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/khador.json"
 		},
 		{
 			"name": "Khymera",
-			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/khymera.json"//,
-			//"factionicon": ""
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/khymera.json"
 		},
 		{
 			"name": "Legion of Everblight",
-			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/everblight.json"//,
-			//"factionicon": ""
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/everblight.json"
 		},
 		{
 			"name": "Orgoth",
-			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/orgoth.json"//,
-			//"factionicon": ""
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/orgoth.json"
 		},
 		{
 			"name": "Protectorate of Menoth",
-			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/protectorate.json"//,
-			//"factionicon": ""
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/protectorate.json"
 		},
 		{
 			"name": "Skorne",
-			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/skorne.json"//,
-			//"factionicon": ""
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/skorne.json"
 		}
 	]
 }
