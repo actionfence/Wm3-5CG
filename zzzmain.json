@@ -2,43 +2,43 @@
 	"jsons":[
 		{
 			"name": "Circle Orboros",
-			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/circle.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/circle.json"
 		},
 		{
 			"name": "Crucible Guard",
-			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/crucible.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/crucible.json"
 		},
 		{
 			"name": "Cryx",
-			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/cryx.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/cryx.json"
 		},
 		{
 			"name": "Cygnar",
-			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/cygnar.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/cygnar.json"
 		},
 		{
 			"name": "Legion of Everblight",
-			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/everblight.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/everblight.json"
 		},
 		{
 			"name": "Khador",
-			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/khador.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/khador.json"
 		},
 		{
 			"name": "Khymera",
-			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/khymera.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/khymera.json"
 		},
 		{
 			"name": "Orgoth",
-			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/orgoth.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/orgoth.json"
 		},
 		{
 			"name": "Protectorate of Menoth",
-			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/protectorate.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/protectorate.json"
 		},
 		{
 			"name": "Skorne",
-			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/skorne.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/skorne.json"
 		}
 	]
 }
