@@ -3,42 +3,52 @@
 		{
 			"name": "Circle Orboros",
 			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/circle.json"
+			"factionicon": ""
 		},
 		{
 			"name": "Crucible Guard",
 			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/crucible.json"
+			"factionicon": ""
 		},
 		{
 			"name": "Cryx",
 			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/cryx.json"
+			"factionicon": ""
 		},
 		{
 			"name": "Cygnar",
 			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/cygnar.json"
-		},
-		{
-			"name": "Legion of Everblight",
-			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/everblight.json"
+			"factionicon": ""
 		},
 		{
 			"name": "Khador",
 			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/khador.json"
+			"factionicon": ""
 		},
 		{
 			"name": "Khymera",
 			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/khymera.json"
+			"factionicon": ""
+		},
+		{
+			"name": "Legion of Everblight",
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/everblight.json"
+			"factionicon": ""
 		},
 		{
 			"name": "Orgoth",
 			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/orgoth.json"
+			"factionicon": ""
 		},
 		{
 			"name": "Protectorate of Menoth",
 			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/protectorate.json"
+			"factionicon": ""
 		},
 		{
 			"name": "Skorne",
 			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/skorne.json"
+			"factionicon": ""
 		}
 	]
 }
