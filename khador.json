@@ -3050,7 +3050,6 @@
             ],
             "fieldallowance": "C",
             "models": [
-                {
                     {
                     "name": "Zerkova 2",
                     "title": "Khador Greylord Warcaster",
@@ -3167,6 +3166,7 @@
                     ],
                     "displayorder": 0
                 },
+                {
                     "name": "Reaver Guard",
                     "title": "Khador Doom Reaver Solo",
                     "modeltype": [
