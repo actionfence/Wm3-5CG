@@ -3051,73 +3051,7 @@
             "fieldallowance": "C",
             "models": [
                 {
-                    "name": "Reaver Guard",
-                    "title": "Khador Doom Reaver Solo",
-                    "modeltype": [
-                        "Solo",
-                        "Warrior"
-                    ],
-                    "keywords": [
-                        "Doom Reaver",
-                        "Thamarite",
-                        "Tough"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Berserk",
-                            "description": "When this model destroys one or more models with a melee attack during its Combat Action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range."
-                        },
-                        {
-                            "name": "Companion [Obavnik Kommander Zerkova]",
-                            "description": "This model is included in any army that includes Obavnik Kommander Zerkova. If Obavnik Kommander Zerkova is destroyed or removed from play, remove this model from play. This model is part of Obavnik Kommander Zerkova's battlegroup."
-                        },
-                        {
-                            "name": "Guard Dog",
-                            "description": "While this model is within 3\" of it's warlock/warcaster and isn't knocked down or stationary, it's warlock/warcaster gains Unstoppable and +2 DEF against melee attack accuracy rolls and models attacking the warcaster/warlock do not gain back strike bonuses."
-                        },
-                        {
-                            "name": "Hyper-Aggressive",
-                            "description": "When this model suffers damage from an enemy attack at any time except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model."
-                        },
-                        {
-                            "name": "Return",
-                            "description": "Immediately after resolving a charge attack, this model can make a full advance toward it's warcaster. This model cannot be targeted by free strikes during this movement."
-                        },
-                        {
-                            "name": "Sacred Ward",
-                            "description": "This model cannot be targeted by enemy spells."
-                        }
-                    ],
-                    "stats": {
-                        "basesize": "30mm",
-                        "spd": "6",
-                        "str": "7",
-                        "mat": "7",
-                        "rat": "4",
-                        "def": "13",
-                        "arm": "15",
-                        "cmd": "7",
-                        "hp": "8"
-                    },
-                    "weapons": [
-                        {
-                            "name": "Fell Axe",
-                            "type": "melee",
-                            "fieldoffire": "none",
-                            "rng": "2",
-                            "pow": "5",
-                            "count": "1",
-                            "damagetype": [
-                                "Arcane"
-                            ],
-                            "presetabilities": [
-                                "Weapon Master"
-                            ]
-                        }
-                    ],
-                    "displayorder": 0
-                },
-                {
+                    {
                     "name": "Zerkova 2",
                     "title": "Khador Greylord Warcaster",
                     "modeltype": [
@@ -3229,6 +3163,72 @@
                             "dur": "-",
                             "off": "NO",
                             "description": "Up to two friendly warrior models in the spellcaster's Control Range other than the spellcaster suffer 1d3 damage. For each damage dealt this way a model in the spellcaster's battlegroup in the spellcaster's Control Range gains 1 focus. A model may gain no more the 3 focus this way. Sacrificial Lamb can be cast only once per activation."
+                        }
+                    ],
+                    "displayorder": 0
+                },
+                    "name": "Reaver Guard",
+                    "title": "Khador Doom Reaver Solo",
+                    "modeltype": [
+                        "Solo",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Doom Reaver",
+                        "Thamarite",
+                        "Tough"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Berserk",
+                            "description": "When this model destroys one or more models with a melee attack during its Combat Action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range."
+                        },
+                        {
+                            "name": "Companion [Obavnik Kommander Zerkova]",
+                            "description": "This model is included in any army that includes Obavnik Kommander Zerkova. If Obavnik Kommander Zerkova is destroyed or removed from play, remove this model from play. This model is part of Obavnik Kommander Zerkova's battlegroup."
+                        },
+                        {
+                            "name": "Guard Dog",
+                            "description": "While this model is within 3\" of it's warlock/warcaster and isn't knocked down or stationary, it's warlock/warcaster gains Unstoppable and +2 DEF against melee attack accuracy rolls and models attacking the warcaster/warlock do not gain back strike bonuses."
+                        },
+                        {
+                            "name": "Hyper-Aggressive",
+                            "description": "When this model suffers damage from an enemy attack at any time except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model."
+                        },
+                        {
+                            "name": "Return",
+                            "description": "Immediately after resolving a charge attack, this model can make a full advance toward it's warcaster. This model cannot be targeted by free strikes during this movement."
+                        },
+                        {
+                            "name": "Sacred Ward",
+                            "description": "This model cannot be targeted by enemy spells."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "30mm",
+                        "spd": "6",
+                        "str": "7",
+                        "mat": "7",
+                        "rat": "4",
+                        "def": "13",
+                        "arm": "15",
+                        "cmd": "7",
+                        "hp": "8"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Fell Axe",
+                            "type": "melee",
+                            "fieldoffire": "none",
+                            "rng": "2",
+                            "pow": "5",
+                            "count": "1",
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "presetabilities": [
+                                "Weapon Master"
+                            ]
                         }
                     ],
                     "displayorder": 1
