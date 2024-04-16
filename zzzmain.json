@@ -1,0 +1,44 @@
+{
+	"jsons":[
+		{
+			"name": "Circle Orboros",
+			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/circle.json"
+		},
+		{
+			"name": "Crucible Guard",
+			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/crucible.json"
+		},
+		{
+			"name": "Cryx",
+			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/cryx.json"
+		},
+		{
+			"name": "Cygnar",
+			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/cygnar.json"
+		},
+		{
+			"name": "Legion of Everblight",
+			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/everblight.json"
+		},
+		{
+			"name": "Khador",
+			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/khador.json"
+		},
+		{
+			"name": "Khymera",
+			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/khymera.json"
+		},
+		{
+			"name": "Orgoth",
+			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/orgoth.json"
+		},
+		{
+			"name": "Protectorate of Menoth",
+			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/protectorate.json"
+		},
+		{
+			"name": "Skorne",
+			"address": "https://github.com/actionfence/Wm3-5CG/blob/main/skorne.json"
+		},
+	]
+}
