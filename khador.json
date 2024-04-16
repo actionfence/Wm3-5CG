@@ -13,79 +13,6 @@
             "fieldallowance": "C",
             "models": [
                 {
-                    "name": "Kommandos",
-                    "title": "Khador Assault Kommando",
-                    "modeltype": [
-                        "Solo",
-                        "Warrior"
-                    ],
-                    "keywords": [
-                        "Assault Kommando",
-                        "Pathfinder",
-                        "Resistance: Corrosion",
-                        "Resistance: Fire"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Alchemical Mask",
-                            "description": "This model does not suffer gas effects. When determining LOS or resolving attacks, this model ignores cloud effects and concealment granted from cloud effects."
-                        },
-                        {
-                            "name": "Companion [Assault Kommander Strakhov]",
-                            "description": "This model is included in any army that includes Assault Kommander Strakhov. If Assault Kommander Strakhov is destroyed or removed from play, remove this model from play. This model is part of Assault Kommander Strakhov's battlegroup."
-                        },
-                        {
-                            "name": "Smoke Bomb",
-                            "description": "Centre a 3\" AOE cloud effect on this model. This AOE remains in play for one round."
-                        }
-                    ],
-                    "stats": {
-                        "basesize": "30mm",
-                        "spd": "6",
-                        "str": "6",
-                        "mat": "7",
-                        "rat": "6",
-                        "def": "13",
-                        "arm": "14",
-                        "cmd": "8",
-                        "hp": "5"
-                    },
-                    "weapons": [
-                        {
-                            "name": "Death Whisper Carbine",
-                            "type": "ranged",
-                            "fieldoffire": "none",
-                            "rng": "8",
-                            "pow": "6",
-                            "count": "1",
-                            "ability": [
-                                {
-                                    "name": "Armor-Piercing",
-                                    "description": "When calculating damage from this weapon, halve the base ARM stats of the models hit."
-                                }
-                            ],
-                            "presetabilities": [
-                                "Assault"
-                            ]
-                        },
-                        {
-                            "name": "Trench Blade",
-                            "type": "melee",
-                            "fieldoffire": "none",
-                            "rng": "1",
-                            "pow": "4",
-                            "count": "1",
-                            "ability": [
-                                {
-                                    "name": "Brutal Charge",
-                                    "description": "This model gains +2 to charge attack damage rolls with this weapon."
-                                }
-                            ]
-                        }
-                    ],
-                    "displayorder": 0
-                },
-                {
                     "name": "Strakhov 2",
                     "title": "Khador Assault Kommando Warcaster",
                     "modeltype": [
@@ -239,6 +166,79 @@
                             "dur": "RND",
                             "off": "NO",
                             "description": "When target friendly Faction model is targeted by an enemy ranged attack, after the attack is resolved the affected model can make one basic melee or ranged attack, then Return fire expires. Return Fire lasts for one Round."
+                        }
+                    ],
+                    "displayorder": 0
+                },
+                {
+                    "name": "Kommandos",
+                    "title": "Khador Assault Kommando",
+                    "modeltype": [
+                        "Solo",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Assault Kommando",
+                        "Pathfinder",
+                        "Resistance: Corrosion",
+                        "Resistance: Fire"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Alchemical Mask",
+                            "description": "This model does not suffer gas effects. When determining LOS or resolving attacks, this model ignores cloud effects and concealment granted from cloud effects."
+                        },
+                        {
+                            "name": "Companion [Assault Kommander Strakhov]",
+                            "description": "This model is included in any army that includes Assault Kommander Strakhov. If Assault Kommander Strakhov is destroyed or removed from play, remove this model from play. This model is part of Assault Kommander Strakhov's battlegroup."
+                        },
+                        {
+                            "name": "Smoke Bomb",
+                            "description": "Centre a 3\" AOE cloud effect on this model. This AOE remains in play for one round."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "30mm",
+                        "spd": "6",
+                        "str": "6",
+                        "mat": "7",
+                        "rat": "6",
+                        "def": "13",
+                        "arm": "14",
+                        "cmd": "8",
+                        "hp": "5"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Death Whisper Carbine",
+                            "type": "ranged",
+                            "fieldoffire": "none",
+                            "rng": "8",
+                            "pow": "6",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Armor-Piercing",
+                                    "description": "When calculating damage from this weapon, halve the base ARM stats of the models hit."
+                                }
+                            ],
+                            "presetabilities": [
+                                "Assault"
+                            ]
+                        },
+                        {
+                            "name": "Trench Blade",
+                            "type": "melee",
+                            "fieldoffire": "none",
+                            "rng": "1",
+                            "pow": "4",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Brutal Charge",
+                                    "description": "This model gains +2 to charge attack damage rolls with this weapon."
+                                }
+                            ]
                         }
                     ],
                     "displayorder": 1
