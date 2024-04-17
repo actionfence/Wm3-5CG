@@ -29,6 +29,10 @@
 			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/everblight.json"
 		},
 		{
+			"name": "Llael",
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/llael.json"
+		},
+		{
 			"name": "Orgoth",
 			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/orgoth.json"
 		},
@@ -39,6 +43,14 @@
 		{
 			"name": "Skorne",
 			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/skorne.json"
+		},
+		{
+			"name": "Thornfall Alliance",
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/thornfall.json"
+		},
+		{
+			"name": "Mercenaries",
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/mercenaries.json"
 		}
 	]
 }
