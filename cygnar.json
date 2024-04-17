@@ -1985,79 +1985,6 @@
             "fieldallowance": "C",
             "models": [
                 {
-                    "name": "Rocket Turret",
-                    "title": "Cygnar Solo",
-                    "modeltype": [
-                        "Solo"
-                    ],
-                    "keywords": [
-                        "Construct",
-                        "Gunfighter"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Circular Vision",
-                            "description": "Models never gain a back strike bonus against this model."
-                        },
-                        {
-                            "name": "Companion [Colonel Brisbane]",
-                            "description": "This model is included in any army that includes Colonel Brisbane. If Colonel Brisbane is destroyed or removed from play, remove this model from play. This model is part of Colonel Brisbane's battlegroup."
-                        },
-                        {
-                            "name": "Created",
-                            "description": "This model does not begin the game in play."
-                        },
-                        {
-                            "name": "Gun Platform",
-                            "description": "This model can make ranged attacks even while in melee and can target models outside of melee."
-                        },
-                        {
-                            "name": "Pack It Up",
-                            "description": "If this model is in play during your Maintenance Phase, you can remove it from play."
-                        },
-                        {
-                            "name": "Sentry Fire",
-                            "description": "Once per turn, when an enemy model is warped or advances into and ends its movement within 8\" of this model, this model can immediately make one basic ranged attack targeting that model."
-                        },
-                        {
-                            "name": "Turret",
-                            "description": "This model can only advance to change it's facing. This model cannot become knocked down or be pushed and is automatically hit by melee attacks. This model does not suffer blast damage."
-                        }
-                    ],
-                    "stats": {
-                        "basesize": "40mm",
-                        "spd": "0",
-                        "str": "1",
-                        "rat": "6",
-                        "def": "5",
-                        "arm": "18",
-                        "cmd": "0",
-                        "hp": "5"
-                    },
-                    "weapons": [
-                        {
-                            "name": "Rocket",
-                            "type": "ranged",
-                            "fieldoffire": "none",
-                            "rng": "12",
-                            "rof": "1",
-                            "pow": "14",
-                            "count": "1",
-                            "ability": [
-                                {
-                                    "name": "High-Explosive",
-                                    "description": "Blast damage caused by this weapon is POW 10."
-                                },
-                                {
-                                    "name": "Siege Weapon",
-                                    "description": "This weapon gains an additional die to its damage rolls against huge-based models and structures."
-                                }
-                            ]
-                        }
-                    ],
-                    "displayorder": 0
-                },
-                {
                     "name": "Siege 2",
                     "title": "Cygnar Warcaster",
                     "modeltype": [
@@ -2181,6 +2108,79 @@
                             "dur": "UP",
                             "off": "NO",
                             "description": "Place a wall template anywhere completely within the spellcaster's Control Range where it does not touch a model's base, an obstruction, or an obstacle. When a model enters or ends its activation in the wall template it suffers 1 damage point."
+                        }
+                    ],
+                    "displayorder": 0
+                },
+                {
+                    "name": "Rocket Turret",
+                    "title": "Cygnar Solo",
+                    "modeltype": [
+                        "Solo"
+                    ],
+                    "keywords": [
+                        "Construct",
+                        "Gunfighter"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Circular Vision",
+                            "description": "Models never gain a back strike bonus against this model."
+                        },
+                        {
+                            "name": "Companion [Colonel Brisbane]",
+                            "description": "This model is included in any army that includes Colonel Brisbane. If Colonel Brisbane is destroyed or removed from play, remove this model from play. This model is part of Colonel Brisbane's battlegroup."
+                        },
+                        {
+                            "name": "Created",
+                            "description": "This model does not begin the game in play."
+                        },
+                        {
+                            "name": "Gun Platform",
+                            "description": "This model can make ranged attacks even while in melee and can target models outside of melee."
+                        },
+                        {
+                            "name": "Pack It Up",
+                            "description": "If this model is in play during your Maintenance Phase, you can remove it from play."
+                        },
+                        {
+                            "name": "Sentry Fire",
+                            "description": "Once per turn, when an enemy model is warped or advances into and ends its movement within 8\" of this model, this model can immediately make one basic ranged attack targeting that model."
+                        },
+                        {
+                            "name": "Turret",
+                            "description": "This model can only advance to change it's facing. This model cannot become knocked down or be pushed and is automatically hit by melee attacks. This model does not suffer blast damage."
+                        }
+                    ],
+                    "stats": {
+                        "basesize": "40mm",
+                        "spd": "0",
+                        "str": "1",
+                        "rat": "6",
+                        "def": "5",
+                        "arm": "18",
+                        "cmd": "0",
+                        "hp": "5"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Rocket",
+                            "type": "ranged",
+                            "fieldoffire": "none",
+                            "rng": "12",
+                            "rof": "1",
+                            "pow": "14",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "High-Explosive",
+                                    "description": "Blast damage caused by this weapon is POW 10."
+                                },
+                                {
+                                    "name": "Siege Weapon",
+                                    "description": "This weapon gains an additional die to its damage rolls against huge-based models and structures."
+                                }
+                            ]
                         }
                     ],
                     "displayorder": 1
