@@ -1,0 +1,2672 @@
+{
+	"products": [
+		{
+			"name": "Helga on Wheels",
+			"points": "28",
+			"category": "Warcasters/Warlocks/Masters",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "C",
+			"models": [
+				{
+					"name": "Helga 2",
+					"title": "Thornfall Alliance Warlock",
+					"modeltype": [
+						"Warlock"
+					],
+					"keywords": [
+						"Cavalry",
+						"Farrow",
+						"Pathfinder",
+						"Riot Quest",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Exhaust Fumes",
+							"description": "When this model advances during it's Normal Movement, for one round other friendly models gain concealment while within 3\" of this model."
+						},
+						{
+							"name": "Farrow Warlock",
+							"description": "This model can have only Farrow warbeasts and attached models in its battlegroup."
+						},
+						{
+							"name": "Mercenary [Circle, Legion, Skorne, and Trollbloods]",
+							"description": "This model will work for Circle, Legion, Skorne, and Trollbloods."
+						},
+						{
+							"name": "Partisan [Thornfall Alliance]",
+							"description": "When included in a Thornfall Alliance army, this model is a Thornfall Alliance model instead of a Mercenary model."
+						},
+						{
+							"name": "Reposition [3\"]",
+							"description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
+						},
+						{
+							"name": "Steady",
+							"description": "This model cannot become knocked down."
+						},
+						{
+							"name": "Wild Ride",
+							"description": "Light and heavy warbeasts in this model’s battlegroup gain Cavalry, Pathfinder and Reposition [3”]. When an affected warbeast makes an impact attack, that attack has a base POW equal to its STR. The melee range of impact attacks is 1”. Affected warbeasts do not gain Mount attacks from Wild Ride."
+						}
+					],
+					"feat": {
+						"name": "Highway to Hell",
+						"description": "Helga immediately casts Engine of Destruction without spending fury. Additionally, when a friendly Faction model in Helga’s control range hits one or more enemy models with an attack during its activation, at the end of it's activation the attacking model can make a full advance. The affected model cannot be targeted by free strikes during this movement. Highway to Hell lasts for one turn."
+					},
+					"execution": {
+						"name": "Dodge",
+						"description": "This model can advance up to 2\" immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement."
+					},
+					"stats": {
+						"basesize": "50mm",
+						"spd": "7",
+						"str": "8",
+						"aat": "6",
+						"mat": "7",
+						"rat": "6",
+						"def": "14",
+						"arm": "17",
+						"arc": "6",
+						"cmd": "8",
+						"ctrl": "12",
+						"hp": "18"
+					},
+					"weapons": [
+						{
+							"name": "Spiked Bat",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "6",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Brain Damage",
+									"description": "A model damaged by an attack with this weapon cannot cast spells for one round."
+								}
+							],
+							"damagetype": [
+								"Arcane"
+							]
+						},
+						{
+							"name": "Bike Chain",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "2",
+							"pow": "3",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Pull",
+									"description": "If this model hits an enemy model with an equal or smaller base with a basic attack with this weapon, after the attack is resolved the hit model can be pushed directly toward this model until it contacts a model, an obstacle, or an obstruction."
+								}
+							]
+						},
+						{
+							"name": "Mount",
+							"type": "mount",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "12",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Critical Knockdown",
+									"description": "On a critical hit, the model hit becomes knocked down."
+								},
+								{
+									"name": "Grinding Wheel",
+									"description": "This weapon gains an additional die on accuracy rolls against small- and medium-based models."
+								}
+							]
+						}
+					],
+					"spells": [
+						{
+							"name": "Battering Ram",
+							"cost": "2",
+							"rng": "8",
+							"aoe": "-",
+							"pow": "12",
+							"dur": "-",
+							"off": "YES",
+							"description": "An enemy model hit by Battering Ram can be pushed 3\" directly away from the spell's point of Origin."
+						},
+						{
+							"name": "Battle Host",
+							"cost": "2",
+							"rng": "SELF",
+							"aoe": "CTRL",
+							"pow": "-",
+							"dur": "UP",
+							"off": "NO",
+							"description": "Warbeasts in the spellcaster's battlegroup beginning their activations in it's Control Range gain +2\" movement when advancing as part of their Normal Movement. The spellcaster gains +2 ARM while one or more warbeasts in it's battlegroup are within 3\" of it."
+						},
+						{
+							"name": "Engine Of Destruction",
+							"cost": "2",
+							"rng": "SELF",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "TURN",
+							"off": "NO",
+							"description": "The Spellcaster gains +2 SPD, +4 MAT and +4 to melee attack damage rolls for one turn."
+						},
+						{
+							"name": "Primed",
+							"cost": "2",
+							"rng": "6",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "UP",
+							"off": "NO",
+							"description": "Target friendly Faction warrior model/unit gains +2 to melee accuracy and damage rolls but suffers -2 ARM. If an affected model is disabled by an enemy attack, center a 3” AOE on it and remove that model from play. Models in the AOE are hit and suffer an unboostable POW 14 blast damage roll."
+						},
+						{
+							"name": "Rapport",
+							"cost": "2",
+							"rng": "6",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "UP",
+							"off": "NO",
+							"description": "Target warbeast in the spellcaster's battlegroup can use the spellcaster's current MAT and RAT in place of its own. When checking to see if the affected warbeast is in its controller's Control Range, double the range."
+						}
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Helga the Conqueror",
+			"points": "29",
+			"category": "Warcasters/Warlocks/Masters",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "C",
+			"models": [
+				{
+					"name": "Helga 1",
+					"title": "Thornfall Alliance Warlock",
+					"modeltype": [
+						"Warlock"
+					],
+					"keywords": [
+						"Farrow",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Field Marshal [Gang Fighter]",
+							"description": "Cohort models in this model's battlegroup gain Gang Fighter. (A model with Gang Fighter gains +2 to melee attack accuracy and melee damage rolls when making a melee attack targeting an enemy model in the melee range of another friendly Faction warrior model.)"
+						},
+						{
+							"name": "Flank [Friendly Faction Cohort]",
+							"description": "When this model makes a melee attack against an enemy model in the melee range of a friendly Friendly Faction Cohort warbeast in this model's battlegroup, this model gains +2 to attack accuracy rolls and gains an additional damage die."
+						},
+						{
+							"name": "Gang Fighter",
+							"description": "When making a melee attack targeting an enemy model in the melee range of another friendly Faction warrior model, this model gains +2 to melee attack accuracy and melee damage rolls."
+						},
+						{
+							"name": "Set Defense",
+							"description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack accuracy rolls against this model."
+						},
+						{
+							"name": "Veteran Leader [Farrow Valkyries]",
+							"description": "While in this model's CMD range, Farrow Valkyries models gain +1 to attack accuracy rolls."
+						}
+					],
+					"feat": {
+						"name": "Grand Finale",
+						"description": "Friendly Faction models currently in this model’s control range gain Pitch on their range weapons. When a friendly Faction model in Helga’s control range hits an enemy model with a basic melee attack, instead of making a normal damage roll, the enemy model can be slammed d6” directly away from the attacking model. The POW of the slam damage roll is equal to the P+S of the Attack. The POW of collateral damage rolls is equal to the STR of the attacking model. Grand Finale lasts for one turn."
+					},
+					"execution": {
+						"name": "Groundwork",
+						"description": "While knocked down, this model is not automatically hit by melee attacks, and its DEF is not reduced by being knocked down."
+					},
+					"stats": {
+						"basesize": "30mm",
+						"spd": "5",
+						"str": "7",
+						"aat": "6",
+						"mat": "6",
+						"rat": "6",
+						"def": "15",
+						"arm": "15",
+						"arc": "6",
+						"cmd": "8",
+						"ctrl": "12",
+						"hp": "15"
+					},
+					"weapons": [
+						{
+							"name": "Shield Cannon",
+							"type": "ranged",
+							"fieldoffire": "None",
+							"rng": "10",
+							"rof": "1",
+							"pow": "13",
+							"count": "1",
+							"presetabilities": [
+								"Assault",
+								"Shield"
+							]
+						},
+						{
+							"name": "Hunting Spear",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "2",
+							"pow": "5",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Inflict Pain",
+									"description": "When this weapon hits a warbeast, this model can place 1 fury point on or remove 1 fury point from the hit warbeast."
+								}
+							],
+							"damagetype": [
+								"Arcane"
+							]
+						}
+					],
+					"spells": [
+						{
+							"name": "Cyclone",
+							"cost": "2",
+							"rng": "SELF",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "-",
+							"off": "NO",
+							"description": "The spellcaster immediately makes a full advance, ignoring freestrikes during this movement. At the end of this movement, the spellcaster can make one basic melee attack against each model in its LOS that is in its melee range. Cyclone can be cast only once per activation."
+						},
+						{
+							"name": "Dash",
+							"cost": "2",
+							"rng": "SELF",
+							"aoe": "CTRL",
+							"pow": "-",
+							"dur": "TURN",
+							"off": "NO",
+							"description": "The spellcaster and friendly Faction warrior models activating in its Control Range gain +1 SPD. While in the spellcaster's Control Range, friendly Faction warrior models gain Unstoppable. Dash lasts for one turn."
+						},
+						{
+							"name": "Defender's Ward",
+							"cost": "3",
+							"rng": "6",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "UP",
+							"off": "NO",
+							"description": "Target friendly Faction model/unit gains +2 DEF and ARM. Models are not affected while out of formation."
+						},
+						{
+							"name": "Distraction",
+							"cost": "2",
+							"rng": "10",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "RND",
+							"off": "YES",
+							"description": "Target warrior model/unit cannot make ranged attacks and suffer -2 DEF and MAT for one round."
+						},
+						{
+							"name": "Muzzle",
+							"cost": "2",
+							"rng": "10",
+							"aoe": "-",
+							"pow": "12",
+							"dur": "*",
+							"off": "YES",
+							"description": "An enemy warbeast damaged by Muzzle cannot advance toward the spellcaster for one round."
+						}
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Lord Azazello, The Castellan",
+			"points": "29",
+			"category": "Warcasters/Warlocks/Masters",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "C",
+			"models": [
+				{
+					"name": "Azazello 1",
+					"title": "Thornfall Alliance Warlock",
+					"modeltype": [
+						"Warlock"
+					],
+					"keywords": [
+						"Farrow",
+						"Pathfinder",
+						"Riot Quest",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "En Garde",
+							"description": "While in this model’s CMD range, friendly Faction warrior models gain Riposte."
+						},
+						{
+							"name": "Henchmen [Faction]",
+							"description": ""
+						},
+						{
+							"name": "Riposte",
+							"description": "When this model is missed by an enemy melee attack, immediately after the attack is resolved it can make one basic melee attack against the attacking model."
+						}
+					],
+					"feat": {
+						"name": "Most Noted Highwaymen",
+						"description": "While in Azazello’s control range, friendly Faction warrior models gain +2 STR and DEF and Duelist. Most Noted Highwaymen lasts for one round. (a model with Duelist gains +2 DEF against melee accuracy rolls.)"
+					},
+					"execution": {
+						"name": "Reversal",
+						"description": "When a model misses this model with a charge or power attack, the attacking model becomes knocked down."
+					},
+					"stats": {
+						"basesize": "30MM",
+						"spd": "6",
+						"str": "7",
+						"aat": "6",
+						"mat": "8",
+						"rat": "7",
+						"def": "16",
+						"arm": "15",
+						"arc": "6",
+						"cmd": "8",
+						"ctrl": "12",
+						"hp": "17"
+					},
+					"weapons": [
+						{
+							"name": "Wide Boar Pistol",
+							"type": "ranged",
+							"fieldoffire": "None",
+							"rng": "12",
+							"rof": "1",
+							"pow": "12",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Beacon",
+									"description": "Friendly Faction models can charge or make a slam power attack against an enemy model hit by a weapon with Beacon without being forced or spending focus. A friendly Faction model charging an enemy model hit by Beacon gains +2\" movement. Beacon lasts for one turn."
+								}
+							]
+						},
+						{
+							"name": "Mortua",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "4",
+							"count": "1",
+							"damagetype": [
+								"Arcane"
+							],
+							"presetabilities": [
+								"Weapon Master"
+							]
+						}
+					],
+					"spells": [
+						{
+							"name": "Flashing Blade",
+							"cost": "1",
+							"rng": "SELF",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "-",
+							"off": "NO",
+							"description": "The spellcaster immediately makes one basic attack with one of its melee weapons against each enemy model in its LOS that is in the weapon's melee range. These attacks are simultaneous."
+						},
+						{
+							"name": "Phantasm",
+							"cost": "2",
+							"rng": "6",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "UP",
+							"off": "NO",
+							"description": "When target friendly Faction model/unit is targeted by a ranged attack with a RNG greater than 8”, the attack suffers -5 RNG to a minimum of 8”. Models are not affected while out of formation."
+						},
+						{
+							"name": "Storm Rager",
+							"cost": "3",
+							"rng": "6",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "UP",
+							"off": "NO",
+							"description": "Target friendly Faction warrior model gains +2 STR, MAT and ARM and cannot be targeted by combined ranged attacks or combined melee attacks."
+						},
+						{
+							"name": "Wind Rush",
+							"cost": "2",
+							"rng": "SELF",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "-",
+							"off": "NO",
+							"description": "The spellcaster can immediately make a full advance and gains +2 DEF for one round. Wind Rush can be cast only once per activation."
+						}
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Lord Carver, BMMD, ESQ, III",
+			"points": "28",
+			"category": "Warcasters/Warlocks/Masters",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "C",
+			"models": [
+				{
+					"name": "Carver 1",
+					"title": "Thornfall Alliance Warlock",
+					"modeltype": [
+						"Warlock"
+					],
+					"keywords": [
+						"Farrow",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Farrow Warlock",
+							"description": "This model can have only Farrow warbeasts and attached models in its battlegroup."
+						},
+						{
+							"name": "Field Marshal [Hyper-Aggressive]",
+							"description": "Cohort models in this model's battlegroup gain Hyper-Aggressive. (When a model with Hyper-Aggressive suffers damage from an enemy attack at any time except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model.)"
+						},
+						{
+							"name": "Reckless Arcana",
+							"description": "Once per turn, when a model in this model's battlegroup destroys one or more enemy models with a melee attack, immediately after the attack is resolved, this model can cast a spell with a COST 3 or less without spending focus, fury, or essence."
+						},
+						{
+							"name": "Stuff More Powder (★Action)",
+							"description": "Target friendly faction warrior model/unit gain +2 to their next range damage roll this turn"
+						},
+						{
+							"name": "Veteran Leader [Farrow Warrior]",
+							"description": "While in this model's CMD range, Farrow Warrior models gain +1 to attack accuracy rolls."
+						}
+					],
+					"feat": {
+						"name": "Hog Heaven",
+						"description": "While in Carver’s control range, friendly Farrow models gain Overtake and an additional die on melee damage rolls. Hog Heaven lasts for one turn. (When a model with Overtake destroys one or more enemy models with a basic melee attack during its Combat Action, after the attack is resolved it can immediately advance up to 1”.)"
+					},
+					"execution": {
+						"name": "Animal Farm",
+						"description": "This model gains an additional die on accuracy and damage rolls against Humans."
+					},
+					"stats": {
+						"basesize": "30mm",
+						"spd": "6",
+						"str": "8",
+						"aat": "6",
+						"mat": "7",
+						"rat": "6",
+						"def": "15",
+						"arm": "17",
+						"arc": "6",
+						"cmd": "9",
+						"ctrl": "12",
+						"hp": "17"
+					},
+					"weapons": [
+						{
+							"name": "Sawed-off Scattergun",
+							"type": "ranged",
+							"fieldoffire": "None",
+							"rng": "SP6",
+							"rof": "2",
+							"pow": "12",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Both Barrels (★Attack)",
+									"description": "This model gains +4 to the damage roll for this attack. This model cannot make additional ranged attacks with this weapon during an activation in which it makes a Both Barrels Attack."
+								}
+							]
+						},
+						{
+							"name": "Hand of God",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "2",
+							"pow": "77",
+							"count": "1",
+							"damagetype": [
+								"Arcane"
+							]
+						}
+					],
+					"spells": [
+						{
+							"name": "Batten Down The Hatches",
+							"cost": "3",
+							"rng": "Self",
+							"aoe": "Ctrl",
+							"pow": "-",
+							"dur": "RND",
+							"off": "NO",
+							"description": "While in the spellcaster’s control range, models in its battlegroup cannot become knocked down and gain +3 ARM but suffer -2 DEF. Batten Down the Hatches lasts for one round."
+						},
+						{
+							"name": "Bombshell",
+							"cost": "3",
+							"rng": "10",
+							"aoe": "3",
+							"pow": "13",
+							"dur": "-",
+							"off": "YES",
+							"description": "On a critical hit, models hit are thrown d6\" directly away from the attacker. Roll distance once for all models affected. Models thrown do not deviate. Move models farthest from the attacker first. Instead of suffering blast damage, models hit but not directly hit suffer a POW 10 damage roll. The POW of collateral damage is 10."
+						},
+						{
+							"name": "Mobility",
+							"cost": "3",
+							"rng": "SELF",
+							"aoe": "CTRL",
+							"pow": "-",
+							"dur": "TURN",
+							"off": "NO",
+							"description": "Models in the spellcaster's battlegroup currently in its Control Range gain +2 SPD and Pathfinder for one turn."
+						},
+						{
+							"name": "Quagmire",
+							"cost": "2",
+							"rng": "6",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "UP",
+							"off": "NO",
+							"description": "While engaged with target friendly Faction model/unit, enemy models suffer -2 DEF and cannot advance except to change facing."
+						}
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Midas",
+			"points": "30",
+			"category": "Warcasters/Warlocks/Masters",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "C",
+			"models": [
+				{
+					"name": "Midas 1",
+					"title": "Thornfall Alliance Warlock",
+					"modeltype": [
+						"Warlock"
+					],
+					"keywords": [
+						"Bone Grinder",
+						"Farrow",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Body Horrors",
+							"description": "This model can channel spells through friendly undead models in this model’s control range."
+						},
+						{
+							"name": "Bring The Bodies Here! [Unlimited Tokens]",
+							"description": "A model with this rule can collect corpse tokens from any non-construct models that it or a friendly faction Cohort destroyed while in this model’s control range, and it can carry there is no limit to how many tokens it can carry at a time. After this model leeches fury during your next Control Phase, replace each corpse token with 1 fury point."
+						},
+						{
+							"name": "Curse [Bone Grinder]",
+							"description": "This model can use Curse once per activation at any time. Choose an enemy model/unit in this model's CMD range. Friendly Bone Grinder models gain +2 to attack accuracy rolls against the chosen model/unit. Curse lasts for one turn."
+						},
+						{
+							"name": "Dismember",
+							"description": "When this model hits a warbeast with a melee attack, it gains an additional die to the attack damage roll."
+						},
+						{
+							"name": "Special Issue [Boneswarm]",
+							"description": "During list construction, you can include Boneswarm light warbeasts in this model's battlegroup, if you do, they gain [Farrow] keywords and are considered to be Farrow light warbeasts."
+						}
+					],
+					"feat": {
+						"name": "Pet Cemetary",
+						"description": "Midas spends any number of fury points when this feat is used. Return each destroyed warbeast from Midas’ battlegroup that was destroyed this game to play, placing them completely within 6” of Midas with one unmarked damage box in each aspect. For each fury point spent, remove 1 damage point from each model in Midas’ battlegroup that is in his control range. Returned warbeasts gain Undead. Returned warbeasts cannot be forced this turn. Warbeasts that were destroyed this turn cannot be returned."
+					},
+					"execution": {
+						"name": "Finisher",
+						"description": "This model gains an additional die on damage rolls against damaged models."
+					},
+					"stats": {
+						"basesize": "30mm",
+						"spd": "5",
+						"str": "7",
+						"aat": "6",
+						"mat": "7",
+						"rat": "4",
+						"def": "14",
+						"arm": "16",
+						"arc": "7",
+						"cmd": "8",
+						"ctrl": "14",
+						"hp": "16"
+					},
+					"weapons": [
+						{
+							"name": "Bone Saw",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "6",
+							"count": "1",
+							"damagetype": [
+								"Arcane"
+							]
+						}
+					],
+					"spells": [
+						{
+							"name": "Abattoir",
+							"cost": "2",
+							"rng": "SELF",
+							"aoe": "CTRL",
+							"pow": "-",
+							"dur": "-",
+							"off": "NO",
+							"description": "Models in the spellcaster's battlegroup currently in its Control Range can immediately make one basic melee attack. Abattoir can be cast only once per activation."
+						},
+						{
+							"name": "Disintegration",
+							"cost": "3",
+							"rng": "10",
+							"aoe": "-",
+							"pow": "13",
+							"dur": "RND",
+							"off": "YES",
+							"description": "The model hit suffers -2 ARM for one round. A model boxed by Disintegration is removed from play."
+						},
+						{
+							"name": "Fresh Bodies",
+							"cost": "",
+							"rng": "",
+							"aoe": "",
+							"pow": "",
+							"dur": "",
+							"off": "NO",
+							"description": ""
+						},
+						{
+							"name": "Fury",
+							"cost": "2",
+							"rng": "6",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "UP",
+							"off": "NO",
+							"description": "Target friendly Faction model/unit gains +3 to melee damage rolls but suffers -1 DEF."
+						},
+						{
+							"name": "Hex Blast",
+							"cost": "3",
+							"rng": "10",
+							"aoe": "3",
+							"pow": "13",
+							"dur": "-",
+							"off": "YES",
+							"description": "Enemy upkeep spells and animi on the model/unit directly hit by Hex Blast immediately expire."
+						}
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Sturm & Drang",
+			"points": "28",
+			"category": "Warcasters/Warlocks/Masters",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "C",
+			"models": [
+				{
+					"name": "Sturm",
+					"title": "Thornfall AllianceWarlock",
+					"modeltype": [
+						"Warlock"
+					],
+					"keywords": [
+						"Farrow",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Field Marshal [Shield Guard]",
+							"description": "Cohort models in this model's battlegroup gain Shield Guard. (When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll.)"
+						},
+						{
+							"name": "Struggle of Wills",
+							"description": "Before the start of the game and at the start of each of your Maintenance Phases after your first turn, choose which mind is dominant: Sturm or Drang. Use that mind’s stats and rules for one round."
+						}
+					],
+					"feat": {
+						"name": "Psychic Apocalypse",
+						"description": "You may immediately switch which mind is dominant, Strum or Drang. Enemy warbeasts currently in Sturm & Drang’s control range have their base FURY reduced to 1. Enemy Warjacks and Monstrosities currently in Sturm & Drang’s control range cannot be allocated focus. Horrors cannot be summoned in Sturn & Drang’s control range. While in Sturm & Drang’s control range, enemy models cannot be used to channel spells. Psychic Apocalypse lasts for one round."
+					},
+					"execution": {
+						"name": "Hyper-Regeneration",
+						"description": "Remove d3 damage points from this model at the start of each of it's activations."
+					},
+					"stats": {
+						"basesize": "40mm",
+						"spd": "5",
+						"str": "6",
+						"aat": "5",
+						"mat": "7",
+						"rat": "3",
+						"def": "14",
+						"arm": "16",
+						"arc": "7",
+						"cmd": "6",
+						"ctrl": "14",
+						"hp": "18"
+					},
+					"weapons": [
+						{
+							"name": "Brain Burn",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "2",
+							"pow": "5",
+							"count": "1",
+							"damagetype": [
+								"Arcane"
+							]
+						},
+						{
+							"name": "Mechano-fist",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "5",
+							"count": "2"
+						}
+					],
+					"spells": [
+						{
+							"name": "Deceleration",
+							"cost": "3",
+							"rng": "SELF",
+							"aoe": "CTRL",
+							"pow": "-",
+							"dur": "TURN",
+							"off": "NO",
+							"description": "While in the spellcaster's Control Range, friendly faction models gain +2 ARM against ranged and magic attack damage rolls. Deceleration lasts for one round."
+						},
+						{
+							"name": "Polarity Shield",
+							"cost": "2",
+							"rng": "6",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "UP",
+							"off": "NO",
+							"description": "Target friendly Faction model/unit gains Polarity Field. Models are not affected while out of formation. (A model with Polarity Field cannot be charged or slam power attacked by a model beginning the charge or slam in its front arc.)."
+						},
+						{
+							"name": "Telekinesis",
+							"cost": "2",
+							"rng": "8",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "-",
+							"off": "YES",
+							"description": "Warp target model completely within 2\" of its current location. When Telekinesis targets an enemy model, it is an offensive spell and requires a magic attack roll. A model can be warped by telekinesis only once per turn."
+						},
+						{
+							"name": "Vision",
+							"cost": "2",
+							"rng": "6",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "UP",
+							"off": "NO",
+							"description": "When target friendly Faction model is directly hit by an attack, you can choose to have it suffer no damage roll from the attack, then Vision expires."
+						}
+					],
+					"displayorder": 0
+				},
+				{
+					"name": "Drang",
+					"title": "Thornfall Alliance Warlock",
+					"modeltype": [
+						"Warlock"
+					],
+					"keywords": [
+						"Farrow",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Field Marshal [Overtake]",
+							"description": "Cohort models in this model's battlegroup gain Overtake. (When a model with Overtake destroys one or more enemy models with a basic melee attack during its Combat Action, after the attack is resolved it can immediately advance up to 1\".)"
+						},
+						{
+							"name": "Pack Hunters",
+							"description": "While in this model's Control Range, living warbeasts in its battlegroup gain +2 on melee accuracy rolls."
+						},
+						{
+							"name": "Short Sighted",
+							"description": "This model cannot upkeep spells."
+						},
+						{
+							"name": "Struggle of Wills",
+							"description": "Before the start of the game and at the start of each of your Maintenance Phases after your first turn, choose which mind is dominant: Sturm or Drang. Use that mind’s stats and rules for one round."
+						}
+					],
+					"feat": {
+						"name": "Psychic Apocalypse",
+						"description": "You may immediately switch which mind is dominant, Strum or Drang. Enemy warbeasts currently in Sturm & Drang’s control range have their base FURY reduced to 1. Enemy Warjacks and Monstrosities currently in Sturm & Drang’s control range cannot be allocated focus. Horrors cannot be summoned in Sturn & Drang’s control range. While in Sturm & Drang’s control range, enemy models cannot be used to channel spells. Psychic Apocalypse lasts for one round."
+					},
+					"execution": {
+						"name": "Primal Rage",
+						"description": "Once per turn, when this model suffers damage from an enemy attack at any time except while it is advancing, after the attack is resolved it can immediately make a full advance toward the attacking model and can make one basic melee attack."
+					},
+					"stats": {
+						"basesize": "40mm",
+						"spd": "5",
+						"str": "10",
+						"aat": "5",
+						"mat": "7",
+						"rat": "3",
+						"def": "14",
+						"arm": "16",
+						"arc": "7",
+						"cmd": "6",
+						"ctrl": "14",
+						"hp": "18"
+					},
+					"weapons": [
+						{
+							"name": "Mechano-fist",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "5",
+							"count": "2"
+						}
+					],
+					"spells": [
+						{
+							"name": "Abuse",
+							"cost": "2",
+							"rng": "6",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "TURN",
+							"off": "NO",
+							"description": "Target friendly Faction warbeast gains +2 SPD and +2 to its melee attack damage rolls for one turn but suffers d3 damage points."
+						},
+						{
+							"name": "Killing Ground",
+							"cost": "3",
+							"rng": "SELF",
+							"aoe": "CTRL",
+							"pow": "-",
+							"dur": "TURN",
+							"off": "NO",
+							"description": "Friendly Faction models beginning a charge in the spellcaster's Control Range gain Pathfinder. Warbeasts in the spellcaster's battlegroup beginning their activations in its Control Range can charge or make slam power attacks against enemy models without being forced. Killing Ground lasts for one turn."
+						},
+						{
+							"name": "Locked Horns",
+							"cost": "3",
+							"rng": "SELF",
+							"aoe": "CTRL",
+							"pow": "-",
+							"dur": "RND",
+							"off": "NO",
+							"description": "While in the spellcaster's Control Range, friendly Faction models gain Unyielding. Locked Horns lasts for one round. (A model with Unyielding gains +2 ARM against melee damage rolls.)."
+						}
+					],
+					"displayorder": 1
+				}
+			]
+		},
+		{
+			"name": "Battle Boar",
+			"points": "6",
+			"category": "Warjacks/Warbeasts/Horrors",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "U",
+			"models": [
+				{
+					"name": "Battle Boar",
+					"title": "Thornfall Alliance Light Warbeast",
+					"modeltype": [
+						"Warbeast"
+					],
+					"keywords": [
+						"Power Attack: Headbutt",
+						"Power Attack: Slam"
+					],
+					"characterabilities": [
+						{
+							"name": "Adrenalize",
+							"description": "This model can use Adrenalize at any time during its activation. This model gains Berserk and Overtake that activation. At the end of that activation, this model suffers d3 damage points."
+						},
+						{
+							"name": "Bacon",
+							"description": "When this model is destroyed, each living warbeast within 3” of this model can remove d3 damage points."
+						},
+						{
+							"name": "Repairable",
+							"description": "This model can be targeted with Repair special actions as if it were a construct model."
+						},
+						{
+							"name": "Snacking",
+							"description": "When this model boxes a living model with a melee attack, it can choose to remove the boxed model from play. When it does, this model can remove d3 damage points."
+						}
+					],
+					"stats": {
+						"basesize": "40MM",
+						"spd": "5",
+						"str": "9",
+						"mat": "5",
+						"rat": "3",
+						"def": "12",
+						"arm": "17",
+						"cmd": "5",
+						"hp": "22",
+						"fury": "3",
+						"thr": "7"
+					},
+					"weapons": [
+						{
+							"name": "Claws",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "4",
+							"count": "2",
+							"presetabilities": [
+								"Open Fist"
+							]
+						}
+					],
+					"animi": [
+						{
+							"name": "Primal",
+							"cost": "2",
+							"rng": "6",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "RND",
+							"off": "NO",
+							"description": "Target friendly living or undead Faction warbeast gains +1 STR and MAT for one round."
+						}
+					],
+					"spiral": [
+						"4",
+						"2",
+						"6",
+						"4",
+						"4",
+						"2"
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Gun Boar",
+			"points": "7",
+			"category": "Warjacks/Warbeasts/Horrors",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "4",
+			"models": [
+				{
+					"name": "Gun Boar",
+					"title": "Thornfall Alliance Light Warbeast",
+					"modeltype": [
+						"Warbeast"
+					],
+					"keywords": [
+						"Power Attack: Headbutt",
+						"Power Attack: Slam",
+						"Power Attack: Throw"
+					],
+					"characterabilities": [
+						{
+							"name": "Bacon",
+							"description": "When this model is destroyed, each living warbeast within 3” of this model can remove d3 damage points."
+						},
+						{
+							"name": "Forced Attention",
+							"description": "After advancing, this model can be forced to gain the Aim benefit this round."
+						},
+						{
+							"name": "Snacking",
+							"description": "When this model boxes a living model with a melee attack, it can choose to remove the boxed model from play. When it does, this model can remove d3 damage points."
+						}
+					],
+					"stats": {
+						"basesize": "40MM",
+						"spd": "5",
+						"str": "9",
+						"mat": "5",
+						"rat": "5",
+						"def": "12",
+						"arm": "17",
+						"cmd": "6",
+						"hp": "22",
+						"fury": "3",
+						"thr": "7"
+					},
+					"weapons": [
+						{
+							"name": "Big Gun",
+							"type": "ranged",
+							"fieldoffire": "None",
+							"rng": "12",
+							"rof": "1",
+							"aoe": "3",
+							"pow": "13",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Forced Reload",
+									"description": "This model can be forced once during its activation to make up to [#tag1] additional ranged attack with this weapon during its Combat Action."
+								},
+								{
+									"name": "High-Explosive",
+									"description": "Blast damage caused by this weapon is POW 10."
+								}
+							]
+						},
+						{
+							"name": "Open Fist",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "3",
+							"count": "2",
+							"presetabilities": [
+								"Open Fist"
+							]
+						}
+					],
+					"animi": [
+						{
+							"name": "Counterblast",
+							"cost": "1",
+							"rng": "SELF",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "RND",
+							"off": "NO",
+							"description": "When an enemy model advances and ends its movement in the spellcaster’s command range, the spellcaster can make one basic melee or ranged attack targeting that model, then Counterblast expires. Counterblast lasts for one round."
+						}
+					],
+					"spiral": [
+						"4",
+						"2",
+						"6",
+						"4",
+						"4",
+						"2"
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Razor Boar",
+			"points": "3",
+			"category": "Warjacks/Warbeasts/Horrors",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "U",
+			"models": [
+				{
+					"name": "Razor Boar",
+					"title": "Thornfall Alliance Lesser Warbeast",
+					"modeltype": [
+						"Warbeast"
+					],
+					"characterabilities": [
+						{
+							"name": "Bacon",
+							"description": "When this model is destroyed, each living warbeast within 3” of this model can remove d3 damage points."
+						},
+						{
+							"name": "Man-Eater",
+							"description": "This model can charge living warrior models without being forced."
+						},
+						{
+							"name": "Snacking",
+							"description": "When this model boxes a living model with a melee attack, it can choose to remove the boxed model from play. When it does, this model can remove d3 damage points."
+						}
+					],
+					"stats": {
+						"basesize": "30MM",
+						"spd": "7",
+						"str": "6",
+						"mat": "5",
+						"rat": "3",
+						"def": "13",
+						"arm": "13",
+						"cmd": "2",
+						"hp": "14",
+						"fury": "2",
+						"thr": "6"
+					},
+					"weapons": [
+						{
+							"name": "Ripping Tusks",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "4",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Brutal Charge",
+									"description": "This model gains +2 to charge attack damage rolls with this weapon."
+								}
+							]
+						}
+					],
+					"animi": [
+						{
+							"name": "Hog Wild",
+							"cost": "1",
+							"rng": "6",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "RND",
+							"off": "NO",
+							"description": "Target Friendly Faction Cohort model gains Pathfinder and Overtake for one round."
+						}
+					],
+					"spiral": [
+						"3",
+						"1",
+						"4",
+						"2",
+						"3",
+						"1"
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Road Hog",
+			"points": "14",
+			"category": "Warjacks/Warbeasts/Horrors",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "U",
+			"models": [
+				{
+					"name": "Road Hog",
+					"title": "Thornfall Alliance Heavy Warbeast",
+					"modeltype": [
+						"Warbeast"
+					],
+					"keywords": [
+						"Power Attack: Headbutt",
+						"Power Attack: Slam",
+						"Power Attack: Throw",
+						"Power Attack: Trample"
+					],
+					"characterabilities": [
+						{
+							"name": "Full Boar",
+							"description": "This model can use Full Boar at the start of its activation. This model gains +2 SPD that activation. At the end of that activation, this model suffers d3 damage points. Full Boar can only be used once per activation."
+						},
+						{
+							"name": "Repairable",
+							"description": "This model can be targeted with Repair special actions as if it were a construct model."
+						},
+						{
+							"name": "Salvage",
+							"description": "When this model destroys an enemy cohort model with a melee attack, remove d3+3 damage points from this model or another model in its battlegroup. If the destroyed model is a Super Heavy or Colossal or Gargantuan, remove d3+6 damage points instead."
+						},
+						{
+							"name": "Thick Cut Bacon",
+							"description": "When this model is destroyed, each living warbeast within 3” of this model can remove d3+2 points."
+						}
+					],
+					"stats": {
+						"basesize": "50MM",
+						"spd": "5",
+						"str": "12",
+						"mat": "6",
+						"rat": "5",
+						"def": "12",
+						"arm": "18",
+						"cmd": "4",
+						"hp": "27",
+						"fury": "4",
+						"thr": "8"
+					},
+					"weapons": [
+						{
+							"name": "Flame Thrower",
+							"type": "ranged",
+							"fieldoffire": "None",
+							"rng": "SP10",
+							"rof": "1",
+							"pow": "12",
+							"count": "1",
+							"damagetype": [
+								"Fire"
+							],
+							"presetabilities": [
+								"Assault",
+								"Continuous Fire"
+							]
+						},
+						{
+							"name": "Mechano-Claw",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "4",
+							"count": "1",
+							"presetabilities": [
+								"Open Fist"
+							]
+						}
+					],
+					"animi": [
+						{
+							"name": "Lightning Strike",
+							"cost": "1",
+							"rng": "SELF",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "TURN",
+							"off": "NO",
+							"description": "The spellcaster gains Sprint. Lightning Strike lasts for one turn. (At the end of an activation in which it destroyed or removed from play one or more enemy models with a melee attack, a model with Sprint can immediately make a full advance, then its activation ends.)"
+						}
+					],
+					"spiral": [
+						"5",
+						"2",
+						"7",
+						"5",
+						"6",
+						"3"
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Splatter Boar",
+			"points": "8",
+			"category": "Warjacks/Warbeasts/Horrors",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "4",
+			"models": [
+				{
+					"name": "Splatter Boar",
+					"title": "Thornfall Alliance Light Warbeast",
+					"modeltype": [
+						"Warbeast"
+					],
+					"keywords": [
+						"Power Attack: Headbutt",
+						"Power Attack: Slam"
+					],
+					"characterabilities": [
+						{
+							"name": "Alchemical Mask",
+							"description": "This model does not suffer gas effects. When determining LOS or resolving attacks, this model ignores cloud effects and concealment granted from cloud effects."
+						},
+						{
+							"name": "Bacon",
+							"description": "When this model is destroyed, each living warbeast within 3” of this model can remove d3 damage points."
+						},
+						{
+							"name": "Snacking",
+							"description": "When this model boxes a living model with a melee attack, it can choose to remove the boxed model from play. When it does, this model can remove d3 damage points."
+						}
+					],
+					"stats": {
+						"basesize": "40MM",
+						"spd": "5",
+						"str": "9",
+						"mat": "5",
+						"rat": "5",
+						"def": "12",
+						"arm": "17",
+						"cmd": "4",
+						"hp": "22",
+						"fury": "3",
+						"thr": "7"
+					},
+					"weapons": [
+						{
+							"name": "Alchemical Mortar",
+							"type": "ranged",
+							"fieldoffire": "None",
+							"rng": "10",
+							"rof": "1",
+							"aoe": "3",
+							"pow": "14",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Arcing Fire",
+									"description": "When attacking with this weapon, this model can ignore intervening models except those within 1\" of the target."
+								}
+							],
+							"nestedabilities": [
+								{
+									"topability": {
+										"name": "Attack Type",
+										"description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
+									},
+									"subabilities": [
+										{
+											"name": "Acid Wash",
+											"description": "This attack causes corrosion damage. Models hit by this attack suffer the Corrosion continuous effect unless it has Resistance: Corrosion."
+										},
+										{
+											"name": "Psychoactive Gas",
+											"description": "A living warbeast directly hit by this attack gains 1 fury point unless they can ignore gas effects."
+										},
+										{
+											"name": "Smoke Blast",
+											"description": "This attack causes fire damage. This weapon's AOE is a hazzard cloud effect that remains in play for one round."
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Open Fist",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "3",
+							"count": "2",
+							"presetabilities": [
+								"Open Fist"
+							]
+						}
+					],
+					"animi": [
+						{
+							"name": "Lucky Shot",
+							"cost": "1",
+							"rng": "6",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "TURN",
+							"off": "NO",
+							"description": "Target friendly Faction model gains +2 to AOE ranged attack rolls. When the affected model's AOE ranged attacks deviate, you can reroll the direction and/or distance of the deviation. Each roll can be rerolled only once as a result of Lucky Shot. Lucky Shot lasts for one turn."
+						}
+					],
+					"spiral": [
+						"4",
+						"2",
+						"6",
+						"4",
+						"4",
+						"2"
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "War Hog",
+			"points": "14",
+			"category": "Warjacks/Warbeasts/Horrors",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "U",
+			"models": [
+				{
+					"name": "War Hog",
+					"title": "Thornfall Alliance Heavy Warbeast",
+					"modeltype": [
+						"Warbeast"
+					],
+					"keywords": [
+						"Power Attack: Headbutt",
+						"Power Attack: Slam",
+						"Power Attack: Throw",
+						"Power Attack: Trample"
+					],
+					"characterabilities": [
+						{
+							"name": "Aggresion Dial",
+							"description": "This model can use Aggression Dial at any time during its activation. This model gains +2 STR that activation. At the end of that activation, this model suffers d3 damage points. Aggression Dial can be used only once per activation."
+						},
+						{
+							"name": "Bulldoze",
+							"description": "When this model is B2B with an enemy model during it's Normal Movement, it can push that model up to 2\" directly away from it. A model can be pushed by Bulldoze only once per turn. Bulldoze has no effect when this model makes a trample power attack."
+						},
+						{
+							"name": "Repairable",
+							"description": "This model can be targeted with Repair special actions as if it were a construct model."
+						},
+						{
+							"name": "Salvage",
+							"description": "When this model destroys an enemy cohort model with a melee attack, remove d3+3 damage points from this model or another model in its battlegroup. If the destroyed model is a Super Heavy or Colossal or Gargantuan, remove d3+6 damage points instead."
+						},
+						{
+							"name": "Thick Cut Bacon",
+							"description": "When this model is destroyed, each living warbeast within 3” of this model can remove d3+2 points."
+						}
+					],
+					"stats": {
+						"basesize": "50MM",
+						"spd": "5",
+						"str": "12",
+						"mat": "6",
+						"rat": "1",
+						"def": "12",
+						"arm": "18",
+						"cmd": "4",
+						"hp": "29",
+						"fury": "4",
+						"thr": "9"
+					},
+					"weapons": [
+						{
+							"name": "War Cleaver",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "2",
+							"pow": "5",
+							"count": "2"
+						},
+						{
+							"name": "Gore",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "4",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Critical Knockdown",
+									"description": "On a critical hit, the model hit becomes knocked down."
+								}
+							]
+						}
+					],
+					"animi": [
+						{
+							"name": "Let Loose The Hogs Of War",
+							"cost": "2",
+							"rng": "6",
+							"aoe": "-",
+							"pow": "-",
+							"dur": "TURN",
+							"off": "NO",
+							"description": "Target Friendly Faction model gains Killing Spree. Let Loose The Hogs of War Lasts for one turn"
+						}
+					],
+					"spiral": [
+						"5",
+						"2",
+						"8",
+						"6",
+						"6",
+						"3"
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Agata, Queen Of Carnage",
+			"points": "5",
+			"category": "Solos",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "C",
+			"models": [
+				{
+					"name": "Agata, Queen Of Carnage",
+					"title": "Thornfall Alliance Solo",
+					"modeltype": [
+						"Solo",
+						"Warrior"
+					],
+					"keywords": [
+						"Farrow",
+						"Pathfinder",
+						"Unstoppable"
+					],
+					"characterabilities": [
+						{
+							"name": "Defensive Strike",
+							"description": "Once per turn, when an enemy model advances into and ends its movement in this model’s melee range, this model can immediately make one basic melee attack against it."
+						},
+						{
+							"name": "Duelist",
+							"description": "This model gains +2 DEF against melee accuracy rolls.\n"
+						},
+						{
+							"name": "Elite Cadre [Farrow Brigands] [Finisher]",
+							"description": "Friendly Farrow Brigands models gain Finisher. (This model gains an additional die on damage rolls against damaged models.)"
+						},
+						{
+							"name": "Parry",
+							"description": "Once per round during your opponent's turn, when an enemy model within this model's LOS targets it with a melee attack, this model can make a melee attack against the enemy model before it makes it's attack accuracy roll. If this model's melee attack hits, the enemy model suffers no damage but it's attack automatically misses."
+						},
+						{
+							"name": "Riposte",
+							"description": "When this model is missed by an enemy melee attack, immediately after the attack is resolved it can make one basic melee attack against the attacking model."
+						},
+						{
+							"name": "Side Step",
+							"description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
+						},
+						{
+							"name": "Sprint",
+							"description": "At the end of an activation in which it destroyed or removed from play one or more enemy models with melee attacks, this model can immediately make a full advance, then it's activation ends."
+						}
+					],
+					"stats": {
+						"basesize": "30MM",
+						"spd": "5",
+						"str": "7",
+						"mat": "7",
+						"rat": "4",
+						"def": "13",
+						"arm": "15",
+						"cmd": "7",
+						"hp": "8"
+					},
+					"weapons": [
+						{
+							"name": "Punch Daggers",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "5",
+							"count": "2",
+							"ability": [
+								{
+									"name": "Combo Strike (★Attack)",
+									"description": "Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model's STR plus twice the POW of this weapon."
+								}
+							]
+						}
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Farrow Sapper",
+			"points": "3",
+			"category": "Solos",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "2",
+			"models": [
+				{
+					"name": "Farrow Sapper",
+					"title": "Thornfall Alliance Solo",
+					"modeltype": [
+						"Solo",
+						"Warrior"
+					],
+					"keywords": [
+						"Advance Deploy",
+						"Ambush",
+						"Farrow",
+						"Gunfighter",
+						"Stealth",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Dig In (★Action)",
+							"description": "This model gains cover, does ot suffer blast damage, and does not block LOS. The model remains dug in until it moves, is placed, or is engaged. It can begin the game dug in."
+						},
+						{
+							"name": "Mine Layer",
+							"description": "After deployment but before the first player's first turn, you can place a mine marker up to 20\" past your deployment zone. This counts towards the total number of mine markers this model can have in play at any one time."
+						},
+						{
+							"name": "Plant Mine (★Action)",
+							"description": "Place a mine marker completely within 3\" of this model. This model can have up to 3 mine markers in play at any time. After resolving continuous effects in the Maintenance Phase, you can detonate any number of friendly mine markers. Center a 4\" AOE on each detonated mine and remove the mine marker from the table. Models in the AOE are hit and suffer an unboostable POW 14 blast damage roll, after resolving damage, models hit are pushed d3 inches away. You can detonate mine markers even if this model is destroyed, RFP'd, or wasn't deployed normally and isn't in play yet."
+						},
+						{
+							"name": "Reposition [3\"]",
+							"description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
+						}
+					],
+					"stats": {
+						"basesize": "30MM",
+						"spd": "6",
+						"str": "7",
+						"mat": "6",
+						"rat": "6",
+						"def": "12",
+						"arm": "14",
+						"cmd": "5",
+						"hp": "5"
+					},
+					"weapons": [
+						{
+							"name": "Thrown Mine",
+							"type": "ranged",
+							"fieldoffire": "None",
+							"rng": "8",
+							"rof": "1",
+							"aoe": "4",
+							"pow": "14",
+							"count": "1"
+						}
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Targ",
+			"points": "3",
+			"category": "Solos",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "C",
+			"models": [
+				{
+					"name": "Targ",
+					"title": "Thornfall Alliance Solo",
+					"modeltype": [
+						"Solo",
+						"Warrior"
+					],
+					"keywords": [
+						"Farrow",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Ancillary Attack (★Attack)",
+							"description": "Target friendly Faction warbeast. If the warbeast is in range, it immediately makes one normal melee or ranged attack. A warbeast can make an Ancillary Attack special action only once per tum. "
+						},
+						{
+							"name": "Arcane Assist",
+							"description": "If its leader is in this model’s CMD range during your Control Phase, the leader can upkeep one spell without spending focus/fury/essence."
+						},
+						{
+							"name": "Arcane Repeater",
+							"description": "While this model’s Leader is within 5” of it, that warcaster’s control range is extended 2”."
+						},
+						{
+							"name": "Attached [Friendly Faction Leader]",
+							"description": "This model is attached to Friendly Faction Leader. Each Leader can have only one model/unit attached to it."
+						},
+						{
+							"name": "Condition (★Action)",
+							"description": "RNG 3”. Target friendly warbeast. If the warbeast is in range, you can place 1 fury point on it or remove 1 fury point from it."
+						},
+						{
+							"name": "Heal [d6+2] (★Action)",
+							"description": "RNG 1\". Target friendly living Faction model. If the model is in range remove d6+2 damage points from it."
+						},
+						{
+							"name": "Special Issue [Dr. Egan Arkadius]",
+							"description": ""
+						}
+					],
+					"stats": {
+						"basesize": "30MM",
+						"spd": "6",
+						"str": "7",
+						"mat": "5",
+						"rat": "4",
+						"def": "13",
+						"arm": "14",
+						"cmd": "7",
+						"hp": "5"
+					},
+					"weapons": [
+						{
+							"name": "Butcher Knife",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "3",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Inflict Pain",
+									"description": "When this weapon hits a warbeast, this model can place 1 fury point on or remove 1 fury point from the hit warbeast."
+								}
+							]
+						}
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Farrow Bone Grinders",
+			"category": "Units",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "2",
+			"unitpoints": {
+				"maxcost": "6",
+				"maxunit": "Leader and 5 Grunts",
+				"minunit": "Leader and 3 Grunts",
+				"mincost": "4"
+			},
+			"models": [
+				{
+					"name": "Farrow Bone Grinder",
+					"title": "Thornfall Alliance Unit",
+					"modeltype": [
+						"Unit",
+						"Warrior"
+					],
+					"keywords": [
+						"Combined Melee Attack",
+						"Farrow",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Bloodthirst",
+							"description": "When it charges a living model, this model gains +2” movement."
+						},
+						{
+							"name": "Dismember",
+							"description": "When this model hits a warbeast with a melee attack, it gains an additional die to the attack damage roll."
+						}
+					],
+					"stats": {
+						"basesize": "30MM",
+						"spd": "5",
+						"str": "7",
+						"aat": "6",
+						"mat": "6",
+						"rat": "4",
+						"def": "13",
+						"arm": "14",
+						"cmd": "6",
+						"hp": "1"
+					},
+					"nestedabilities": [
+						{
+							"topability": {
+								"name": "Magic Ability",
+								"description": "Performing a Magic Ability special action or special attack counts as casting a spell."
+							},
+							"subabilities": [
+								{
+									"name": "Arcane Relic (★Action) (★Attack)",
+									"description": "RNG 6. Target friendly model. If that is in range, its weapons gain Damage Type: Arcane. If this attack targets and hits an enemy model, their weapons lose all abilities and damage types for one round."
+								},
+								{
+									"name": "Bone Fetish (★Action)",
+									"description": "Immediately cast the animus of any destroyed friendly warbeast as a special action. The Bone Grinder does not spend fury to use the animus. The Bone Grinder cannot use animi with a range of Self."
+								},
+								{
+									"name": "Drake Lung (★Action)",
+									"description": "RNG CMD. Place or remove 1 fury point from a warbeast in range."
+								}
+							]
+						}
+					],
+					"weapons": [
+						{
+							"name": "Cleaver",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "4",
+							"count": "1",
+							"nestedabilities": [
+								{
+									"topability": {
+										"name": "Attack Type",
+										"description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
+									},
+									"subabilities": [
+										{
+											"name": "Grievous Wounds",
+											"description": "A model hit by this weapon loses Tough and cannot have damage removed from it for one round."
+										},
+										{
+											"name": "Inflict Pain",
+											"description": "When this weapon hits a warbeast, this model can place 1 fury point on or remove 1 fury point from the hit warbeast."
+										}
+									]
+								}
+							],
+							"damagetype": [
+								"Arcane"
+							]
+						}
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Farrow Brigands",
+			"category": "Units",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "3",
+			"unitpoints": {
+				"maxcost": "6",
+				"maxunit": "Leader and 5 Grunts",
+				"mincost": "4",
+				"minunit": "Leader and 3 Grunts"
+			},
+			"models": [
+				{
+					"name": "Farrow Brigands Leader",
+					"title": "Thornfall Alliance Unit",
+					"modeltype": [
+						"Unit",
+						"Warrior"
+					],
+					"keywords": [
+						"Advance Deploy",
+						"Farrow",
+						"Pathfinder",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Dig In (★Action)",
+							"description": "This model gains cover, does ot suffer blast damage, and does not block LOS. The model remains dug in until it moves, is placed, or is engaged. It can begin the game dug in."
+						},
+						{
+							"name": "Wild Shot",
+							"description": "This model can make one basic range attack during its activation before its Normal Movement. If it does, it can use its Combat Action to make melee attacks that activation."
+						}
+					],
+					"stats": {
+						"basesize": "30MM",
+						"spd": "5",
+						"str": "7",
+						"mat": "6",
+						"rat": "5",
+						"def": "12",
+						"arm": "14",
+						"cmd": "7",
+						"hp": "1"
+					},
+					"weapons": [
+						{
+							"name": "Pig Iron",
+							"type": "ranged",
+							"fieldoffire": "None",
+							"rng": "10",
+							"rof": "1",
+							"pow": "12",
+							"count": "1"
+						},
+						{
+							"name": "Pole Arm",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "2",
+							"pow": "4",
+							"count": "1"
+						}
+					],
+					"displayorder": 0
+				},
+				{
+					"name": "Farrow Brigands Grunts",
+					"title": "Thornfall Alliance Unit",
+					"modeltype": [
+						"Unit",
+						"Warrior",
+						"Grunt"
+					],
+					"characterabilities": [
+						{
+							"name": "Dig In (★Action)",
+							"description": "This model gains cover, does ot suffer blast damage, and does not block LOS. The model remains dug in until it moves, is placed, or is engaged. It can begin the game dug in."
+						},
+						{
+							"name": "Wild Shot",
+							"description": "This model can make one basic range attack during its activation before its Normal Movement. If it does, it can use its Combat Action to make melee attacks that activation."
+						}
+					],
+					"stats": {
+						"basesize": "30MM",
+						"spd": "5",
+						"str": "7",
+						"mat": "6",
+						"rat": "5",
+						"def": "12",
+						"arm": "14",
+						"cmd": "7",
+						"hp": "1"
+					},
+					"weapons": [
+						{
+							"name": "Pig Iron",
+							"type": "ranged",
+							"fieldoffire": "None",
+							"rng": "10",
+							"rof": "1",
+							"pow": "12",
+							"count": "1"
+						},
+						{
+							"name": "Club Arm",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "4",
+							"count": "1"
+						}
+					],
+					"displayorder": 1
+				}
+			]
+		},
+		{
+			"name": "Farrow Commandos",
+			"category": "Units",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "2",
+			"unitpoints": {
+				"minunit": "Leader and 3 Grunts",
+				"maxunit": "Leader and 5 Grunts",
+				"mincost": "4",
+				"maxcost": "6"
+			},
+			"models": [
+				{
+					"name": "Farrow Commandos",
+					"title": "Thornfall Alliance Unit",
+					"modeltype": [
+						"Unit",
+						"Warrior"
+					],
+					"keywords": [
+						"Advance Deploy",
+						"Combined Ranged Attack",
+						"Pathfinder",
+						"Resistance: Blast",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Feign Death",
+							"description": "This model cannot be targeted by ranged or magic attacks while knocked down."
+						},
+						{
+							"name": "Prowl",
+							"description": "While this model has concealment, it gains Stealth."
+						}
+					],
+					"stats": {
+						"basesize": "30MM",
+						"spd": "7",
+						"str": "7",
+						"mat": "6",
+						"rat": "6",
+						"def": "12",
+						"arm": "14",
+						"cmd": "8",
+						"hp": "1"
+					},
+					"weapons": [
+						{
+							"name": "Grenade",
+							"type": "ranged",
+							"fieldoffire": "None",
+							"rng": "6",
+							"rof": "1",
+							"aoe": "3",
+							"pow": "12",
+							"count": "1",
+							"ability": [
+								{
+									"name": "High-Explosive",
+									"description": "Blast damage caused by this weapon is POW 10."
+								}
+							],
+							"presetabilities": [
+								"Assault"
+							]
+						},
+						{
+							"name": "Kukri",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "4",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Brutal Charge",
+									"description": "This model gains +2 to charge attack damage rolls with this weapon."
+								}
+							]
+						}
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Farrow Razorback Crew",
+			"category": "Units",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "2",
+			"unitpoints": {
+				"mincost": "4",
+				"maxcost": "6",
+				"maxunit": "Leader and 5 Grunts",
+				"minunit": "Leader and 3 Grunts"
+			},
+			"models": [
+				{
+					"name": "Gunner",
+					"title": "Thornfall Alliance Unit",
+					"modeltype": [
+						"Unit",
+						"Warrior"
+					],
+					"keywords": [
+						"Advance Deploy",
+						"Farrow",
+						"Officer",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Mobile Artillery",
+							"description": "When this model advances as part of its Normal Movement, it gains +1” movement for each Grunt in this unit within 2” of it at the start of its advance."
+						},
+						{
+							"name": "Reposition [3\"]",
+							"description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
+						},
+						{
+							"name": "Take Up",
+							"description": "If this model is destroyed, you can choose a trooper in this unit within 1” of it to be destroyed instead. Remove that trooper from the table instead of this model. This model has the same number of unmarked damage boxes as the chosen trooper."
+						}
+					],
+					"stats": {
+						"basesize": "50MM",
+						"spd": "3",
+						"str": "7",
+						"mat": "6",
+						"rat": "5",
+						"def": "12",
+						"arm": "14",
+						"cmd": "5",
+						"hp": "1"
+					},
+					"weapons": [
+						{
+							"name": "Razorback",
+							"type": "ranged",
+							"fieldoffire": "None",
+							"rng": "14",
+							"rof": "1",
+							"aoe": "3",
+							"pow": "16",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Brutal Damage",
+									"description": "On a direct hit, gain an additional die on this weapon's damage roll against the target directly hit."
+								},
+								{
+									"name": "Siege Weapon",
+									"description": "This weapon gains an additional die to its damage rolls against huge-based models and structures."
+								}
+							],
+							"presetabilities": [
+								"Shield"
+							]
+						},
+						{
+							"name": "Club",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "4",
+							"count": "1"
+						}
+					],
+					"displayorder": 0
+				},
+				{
+					"name": "Grunt",
+					"title": "Thornfall Alliance Unit",
+					"modeltype": [
+						"Unit",
+						"Warrior",
+						"Grunt"
+					],
+					"keywords": [
+						"Advance Deploy",
+						"Farrow",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Fast Reload (★Action)",
+							"description": "While within 1” of this unit’s gunner, the gunner gains +1 ROF."
+						},
+						{
+							"name": "Reposition [3\"]",
+							"description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
+						}
+					],
+					"stats": {
+						"basesize": "30MM",
+						"spd": "4",
+						"str": "7",
+						"mat": "6",
+						"rat": "5",
+						"def": "12",
+						"arm": "14",
+						"cmd": "5",
+						"hp": "1"
+					},
+					"weapons": [
+						{
+							"name": "Pig Iron",
+							"type": "ranged",
+							"fieldoffire": "None",
+							"rng": "10",
+							"rof": "1",
+							"pow": "12",
+							"count": "1"
+						},
+						{
+							"name": "Club",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "4",
+							"count": "1"
+						}
+					],
+					"displayorder": 1
+				}
+			]
+		},
+		{
+			"name": "Farrow Slaughterhousers",
+			"category": "Units",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "3",
+			"unitpoints": {
+				"minunit": "Leader and 3 Grunts",
+				"mincost": "4",
+				"maxcost": "6",
+				"maxunit": "Leader and 5 Grunts"
+			},
+			"models": [
+				{
+					"name": "Farrow Slaughterhousers",
+					"title": "Thornfall Alliance Unit",
+					"modeltype": [
+						"Unit",
+						"Warrior"
+					],
+					"keywords": [
+						"Farrow",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Finisher",
+							"description": "This model gains an additional die on damage rolls against damaged models."
+						},
+						{
+							"name": "Impervious Flesh",
+							"description": "When this model suffers a damage roll, roll one fewer die."
+						},
+						{
+							"name": "Relentless Charge",
+							"description": "While advancing as part of a charge, this model gains Pathfinder."
+						},
+						{
+							"name": "Rise",
+							"description": "If this model is knocked down at the beginning of your Maintenance Phase, it stands up."
+						},
+						{
+							"name": "Take Down",
+							"description": "Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play."
+						}
+					],
+					"stats": {
+						"basesize": "30MM",
+						"spd": "5",
+						"str": "8",
+						"mat": "7",
+						"rat": "4",
+						"def": "12",
+						"arm": "15",
+						"cmd": "7",
+						"hp": "1"
+					},
+					"weapons": [
+						{
+							"name": "Pole Cleaver",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "2",
+							"pow": "5",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Powerful Charge",
+									"description": "This model gains +2 to charge accuracy rolls with this weapon."
+								},
+								{
+									"name": "Thresher (★Attack)",
+									"description": "This model makes one melee attack with this weapon against each model in it's LOS that is in this weapon's melee range. Thresher attacks are simultaneous."
+								}
+							]
+						}
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Farrow Valkyrie",
+			"category": "Units",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "3",
+			"unitpoints": {
+				"mincost": "4",
+				"maxunit": "Leader and 5 Grunts",
+				"minunit": "Leader and 3 Grunts",
+				"maxcost": "6"
+			},
+			"models": [
+				{
+					"name": "Farrow Valkyries",
+					"title": "Thornfall Alliance Unit",
+					"modeltype": [
+						"Unit",
+						"Warrior"
+					],
+					"keywords": [
+						"Farrow",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Gang",
+							"description": "When making a melee attack targeting an enemy model in the melee range of another model in this model's battlegroup, this model gains +2 to melee attack accuracy and melee damage rolls."
+						},
+						{
+							"name": "Point-Blank",
+							"description": "During its activation, this model can make melee attacks with its ranged weapon, with a melee range of 1\". Do not add this model's STR to damage rolls with ranged weapons."
+						},
+						{
+							"name": "Rise",
+							"description": "If this model is knocked down at the beginning of your Maintenance Phase, it stands up."
+						},
+						{
+							"name": "Shield Guard",
+							"description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have this model directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
+						},
+						{
+							"name": "Vengeance",
+							"description": "During your Maintenance Phase, if one or more models in this unit were damaged by enemy attacks during the last round, each model in the unit can advance 3” and make one basic melee attack."
+						}
+					],
+					"stats": {
+						"basesize": "30MM",
+						"spd": "5",
+						"str": "8",
+						"mat": "6",
+						"rat": "6",
+						"def": "13",
+						"arm": "16",
+						"cmd": "7",
+						"hp": "5"
+					},
+					"weapons": [
+						{
+							"name": "Buckler Cannon",
+							"type": "ranged",
+							"fieldoffire": "None",
+							"rng": "8",
+							"rof": "1",
+							"pow": "12",
+							"count": "1",
+							"presetabilities": [
+								"Buckler"
+							]
+						},
+						{
+							"name": "War Hammer",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "2",
+							"pow": "5",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Critical Knockdown",
+									"description": "On a critical hit, the model hit becomes knocked down."
+								}
+							]
+						}
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Farrow Brigand Warlord",
+			"points": "4",
+			"category": "Attachments",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "3",
+			"attachlimit": "1",
+			"models": [
+				{
+					"name": "Farrow Brigand Warlord",
+					"title": "Thornfall Alliance Command Attachment",
+					"modeltype": [
+						"Attachment",
+						"Warrior"
+					],
+					"keywords": [
+						"Advance Deploy",
+						"Farrow",
+						"Officer",
+						"Pathfinder",
+						"Tough"
+					],
+					"characterabilities": [
+						{
+							"name": "Attachment [Farrow Brigands]",
+							"description": "This attachment can be added to a Farrow Brigands unit."
+						},
+						{
+							"name": "Dig In (★Action)",
+							"description": "This model gains cover, does ot suffer blast damage, and does not block LOS. The model remains dug in until it moves, is placed, or is engaged. It can begin the game dug in."
+						},
+						{
+							"name": "Granted [Combined Arms]",
+							"description": "While this model is in play, models in its unit gain Combined Arms."
+						},
+						{
+							"name": "Order: Tactical Pigtreat",
+							"description": "At the end of an affected unit's activation, models in this unit can immediately advance 3” and then perform the Dig In Special Action."
+						},
+						{
+							"name": "Tactics [Prey]",
+							"description": "Models in this unit gain Prey."
+						},
+						{
+							"name": "Wild Shot",
+							"description": "This model can make one basic range attack during its activation before its Normal Movement. If it does, it can use its Combat Action to make melee attacks that activation."
+						}
+					],
+					"stats": {
+						"basesize": "30MM",
+						"spd": "5",
+						"str": "7",
+						"mat": "7",
+						"rat": "6",
+						"def": "12",
+						"arm": "14",
+						"cmd": "7",
+						"hp": "8"
+					},
+					"weapons": [
+						{
+							"name": "Pig Iron",
+							"type": "ranged",
+							"fieldoffire": "None",
+							"rng": "10",
+							"rof": "1",
+							"pow": "12",
+							"count": "2"
+						},
+						{
+							"name": "Axe",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "4",
+							"count": "1"
+						}
+					],
+					"displayorder": 0
+				}
+			]
+		},
+		{
+			"name": "Meat Thresher",
+			"points": "14",
+			"category": "Battle Engines",
+			"primaryfaction": [
+				"Thornfall Alliance"
+			],
+			"factions": [
+				"Thornfall Alliance"
+			],
+			"fieldallowance": "2",
+			"models": [
+				{
+					"name": "Meat Thresher",
+					"title": "Thornfall Alliance Battle Engine",
+					"modeltype": [
+						"Battle Engine"
+					],
+					"keywords": [
+						"Construct",
+						"Dual Attack",
+						"Farrow",
+						"Pathfinder",
+						"Power Attack: Trample"
+					],
+					"characterabilities": [
+						{
+							"name": "Bulldoze",
+							"description": "When this model is B2B with an enemy model during it's Normal Movement, it can push that model up to 2\" directly away from it. A model can be pushed by Bulldoze only once per turn. Bulldoze has no effect when this model makes a trample power attack."
+						},
+						{
+							"name": "Exhaust Fumes",
+							"description": "When this model advances during it's Normal Movement, for one round other friendly models gain concealment while within 3\" of this model."
+						},
+						{
+							"name": "Meat Tenderizing",
+							"description": ""
+						},
+						{
+							"name": "Threshing Blades",
+							"description": "This model gains +4 to its trample power attack damage rolls."
+						},
+						{
+							"name": "Turn Up The Heat",
+							"description": "This model can use Turn Up the Heat at the start of its activation. This activation, this model gains +2 SPD. At the end of the activation, this model suffers d3 damage points. Turn Up the Heat can be used only once per activation."
+						}
+					],
+					"stats": {
+						"basesize": "120MM",
+						"spd": "8",
+						"str": "16",
+						"mat": "6",
+						"rat": "5",
+						"def": "10",
+						"arm": "19",
+						"cmd": "3",
+						"hp": "36"
+					},
+					"weapons": [
+						{
+							"name": "Hailer",
+							"type": "ranged",
+							"fieldoffire": "None",
+							"rng": "10",
+							"rof": "3",
+							"pow": "13",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Volume Fire",
+									"description": "Attacks with this weapon gain +1 to attack accuracy and damage rolls against medium-based models and +2 to attack accuracy and damage rolls against large, extra-large, and huge-based models."
+								}
+							]
+						},
+						{
+							"name": "Crusher",
+							"type": "Melee",
+							"fieldoffire": "None",
+							"rng": "1",
+							"pow": "0",
+							"count": "1",
+							"ability": [
+								{
+									"name": "Grinding Wheel",
+									"description": "This weapon gains an additional die on accuracy rolls against small- and medium-based models."
+								},
+								{
+									"name": "High-Impact",
+									"description": "When this model makes a charge attack  with this weapon during each of its Combat Actions, it makes one melee attack with this weapon against each model in its LOS that is in this weapon's melee range. These attacks are simultaneous. "
+								},
+								{
+									"name": "Knockdown",
+									"description": "When a model is hit by an attack with this weapon, it becomes knocked down."
+								},
+								{
+									"name": "Trash",
+									"description": "Gain an additional die on damage rolls with this weapon against knocked down targets."
+								}
+							]
+						}
+					],
+					"displayorder": 0
+				}
+			]
+		}
+	]
+}
