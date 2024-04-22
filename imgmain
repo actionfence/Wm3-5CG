@@ -1,48 +1,52 @@
 {
-	"jsons":[
+	"jsons": [
 		{
+		"factionsymbols": [
+			{
 			"name": "Circle Orboros",
 			"address": ""
-		},
-		{
+			},
+			{
 			"name": "Crucible Guard",
 			"address": ""
-		},
-		{
+			},
+			{
 			"name": "Cryx",
 			"address": ""
-		},
-		{
+			},
+			{
 			"name": "Cygnar",
 			"address": ""
-		},
-		{
+			},
+			{
 			"name": "Grymkin",
 			"address": ""
-		},
-		{
+			},
+			{
 			"name": "Khador",
 			"address": ""
-		},
-		{
+			},
+			{
 			"name": "Khymaera",
 			"address": ""
-		},
-		{
+			},
+			{
 			"name": "Legion of Everblight",
 			"address": ""
-		},
-		{
+			},
+			{
 			"name": "Orgoth",
 			"address": ""
-		},
-		{
+			},
+			{
 			"name": "Protectorate of Menoth",
 			"address": ""
-		},
-		{
+			},
+			{
 			"name": "Skorne",
 			"address": ""
-		}
+			}
+		]
+	}
 	]
 }
