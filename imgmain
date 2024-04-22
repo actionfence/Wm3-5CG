@@ -3,7 +3,15 @@
 		{
 		"factionsymbols": [
 			{
+			"name": "Blindwater Congregation",
+			"address": ""
+			},
+			{
 			"name": "Circle Orboros",
+			"address": ""
+			},
+			{
+			"name": "Convergence of Cyriss",
 			"address": ""
 			},
 			{
@@ -19,7 +27,19 @@
 			"address": ""
 			},
 			{
+			"name": "Dusk",
+			"address": ""
+			},
+			{
 			"name": "Grymkin",
+			"address": ""
+			},
+			{
+			"name": "Infernals",
+			"address": ""
+			},
+			{
+			"name": "Ios",
 			"address": ""
 			},
 			{
@@ -31,7 +51,15 @@
 			"address": ""
 			},
 			{
+			"name": "Llael",
+			"address": ""
+			},
+			{
 			"name": "Legion of Everblight",
+			"address": ""
+			},
+			{
+			"name": "Ord",
 			"address": ""
 			},
 			{
@@ -43,7 +71,43 @@
 			"address": ""
 			},
 			{
+			"name": "Religion of the Twins",
+			"address": ""
+			},
+			{
+			"name": "Retribution of Scyrah",
+			"address": ""
+			},
+			{
+			"name": "Searforge Commission",
+			"address": ""
+			},
+			{
 			"name": "Skorne",
+			"address": ""
+			},
+			{
+			"name": "Supernal Coalition",
+			"address": ""
+			},
+			{
+			"name": "Talion Charter",
+			"address": ""
+			},
+			{
+			"name": "Thornfall Alliance",
+			"address": ""
+			},
+			{
+			"name": "Trollbloods",
+			"address": ""
+			},
+			{
+			"name": "Mercenaries",
+			"address": ""
+			},
+			{
+			"name": "General",
 			"address": ""
 			}
 		]
