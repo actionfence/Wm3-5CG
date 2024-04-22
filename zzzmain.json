@@ -2,47 +2,47 @@
 	"jsons":[
 		{
 			"name": "Circle Orboros",
-			"address": "https://raw.githubusercontent.com/murvkins/wm3.5json/main/circle.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/circle.json"
 		},
 		{
 			"name": "Crucible Guard",
-			"address": "https://raw.githubusercontent.com/murvkins/wm3.5json/main/crucible.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/crucible.json"
 		},
 		{
 			"name": "Cryx",
-			"address": "https://raw.githubusercontent.com/murvkins/wm3.5json/main/cryx.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/cryx.json"
 		},
 		{
 			"name": "Cygnar",
-			"address": "https://raw.githubusercontent.com/murvkins/wm3.5json/main/cygnar.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/cygnar.json"
 		},
 		{
 			"name": "Grymkin",
-			"address": "https://raw.githubusercontent.com/murvkins/wm3.5json/main/grymkin.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/grymkin.json"
 		},
 		{
 			"name": "Khador",
-			"address": "https://raw.githubusercontent.com/murvkins/wm3.5json/main/khador.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/khador.json"
 		},
 		{
 			"name": "Khymaera",
-			"address": "https://raw.githubusercontent.com/murvkins/wm3.5json/main/khymera.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/khymera.json"
 		},
 		{
 			"name": "Legion of Everblight",
-			"address": "https://raw.githubusercontent.com/murvkins/wm3.5json/main/everblight.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/everblight.json"
 		},
 		{
 			"name": "Orgoth",
-			"address": "https://raw.githubusercontent.com/murvkins/wm3.5json/main/orgoth.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/orgoth.json"
 		},
 		{
 			"name": "Protectorate of Menoth",
-			"address": "https://raw.githubusercontent.com/murvkins/wm3.5json/main/protectorate.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/protectorate.json"
 		},
 		{
 			"name": "Skorne",
-			"address": "https://raw.githubusercontent.com/murvkins/wm3.5json/main/skorne.json"
+			"address": "https://raw.githubusercontent.com/actionfence/Wm3-5CG/main/skorne.json"
 		}
 	]
 }
