@@ -4168,56 +4168,6 @@
                     "displayorder": 0
                 }
             ]
-        },
-        {
-            "name": "Accursed",
-            "category": "Arcana",
-            "description": "The warlock can play this card when a friendly Faction model with a corpse token is damaged by an enemy attack while in the warlock's control range. While in the warlock's control range, enemy models lose Spectre, Tough, and Undead and cannot have damage removed from them. Additionally, enemy non-warbeast models lose Construct while in the warlock's control range. Accursed lasts for one round."
-        },
-        {
-            "name": "Desolation",
-            "category": "Arcana",
-            "description": "The warlock can play this card when an enemy model advances into and ends its Normal Movement in the warlock's control range. Center a 4\" AOE on the enemy model. You can choose whether the AOE is acid bath, burning earth, forest, rubble, or shallow water terrain. You can choose to remove the AOE from the table at the start of any of your turns."
-        },
-        {
-            "name": "Fortune's Path",
-            "category": "Arcana",
-            "description": "The warlock can play this card when an enemy model misses a friendly Faction model in the warlock's control range with an attack. For one round, friendly Faction models gain +1 to attack and damage rolls against enemy models in the warlock's control range."
-        },
-        {
-            "name": "Ill Omens",
-            "category": "Arcana",
-            "description": "The warlock can play this card when an enemy model destroys a friendly Faction warrior model in the warlock's control range. For one round, enemy models suffer -1 to attack and damage rolls."
-        },
-        {
-            "name": "Labyrinth",
-            "category": "Arcana",
-            "description": "The warlock can play this card when an enemy model advances and ends its movement in the warlock's control range. For one round, enemy models beginning their activations in the warlock's control range suffer -2 SPD that activation."
-        },
-        {
-            "name": "Pandemonium",
-            "category": "Arcana",
-            "description": "The warlock can play this card when an enemy non-warcaster, non-warlock model issues an order whil in the warlock's control range. The model's unit is not affected by the order. Warlock and warcaster units are not affected by Pandemonium."
-        },
-        {
-            "name": "Ruin",
-            "category": "Arcana",
-            "description": "The warlock can play this card when an enemy model targets a model in the warlock's control range with a spell. The spell does not take effect, but it is still considered to be cast and its COST remains spent. Additionally, all enemy upkeep spells in the warlock's control range expire."
-        },
-        {
-            "name": "Sacrifice",
-            "category": "Arcana",
-            "description": "The warlock can plsy this card when an enemy model destroys a friendly Faction model in the warlock's control range. After the destroyed model is removed from the table, you can remove all damage points from each friendly Grymkin model in the warlock's control range."
-        },
-        {
-            "name": "Shroud",
-            "category": "Arcana",
-            "description": "The warlock can play this card when a friendly Faction model is destroyed by an enemy ranged attack while in the warlock's control range. For one round, friendly Faction models gain Stealth while in the warlock's control range."
-        },
-        {
-            "name": "The Shadow",
-            "category": "Arcana",
-            "description": "The warlock can play this card when an enemy model advances into and ends its movement in the melee range of a smaller-based friendly Faction model in the warlock's command range. Immediately add a Faction heavy warbeast to the warlock's battlegroup, placing it in play anywhere completely within 5\" of the smaller-based friendly Faction model. The warbeast cannot advance. The warbeast is removed from play after one round."
-        }       
+        }     
     ]
 }
