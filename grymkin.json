@@ -119,6 +119,12 @@
                             "description": "If one or more models in the spellcaster's battlegroup were damaged by enemy attacks while in the spellcaster’s command range during your opponent’s last turn, during your Maintenance Phase one model in the spellcaster’s battleroup in it's control range can advance 2” and make one basic melee attack."
                         }
                     ],
+                    "arcana": 
+                    {
+                        "name": "Wrath",
+                        "arcanatype": "Trump",
+                        "description": "The warlock can play this card when an emey model damages a model in the warlock's battlegroup with an attack. The warlock gains 1 fury point and the FURY stats of models in the warlock's battlegroup currently in its control range are increased by 1. Wrath lasts for one round, when wrath expires increase the warlock's control range by 2\" until the end of your next maintenance phase."
+                    },
                     "displayorder": 0
                 }
             ]
@@ -249,6 +255,12 @@
                             "description": "Target friendly Faction model/unit gains Apparition. (During your Control Phase, place models with Apparition anywhere completely within 2\" of their current locations.)."
                         }
                     ],
+                    "arcana": 
+                    {
+                        "name": "All Fall Down",
+                        "arcanatype": "Trump",
+                        "description": "The warlock can play this card when a friendly Faction model is disabled by an enemy attack while in the warlock's control range. When an enemy model destroys or removes a friendly Faction model from play with an attack during its activation, at the end of its activation the enemy model becomes knocked down. All Fall Down lasts for one turn."
+                    },
                     "displayorder": 0
                 },
                 {
@@ -567,6 +579,12 @@
                             "description": "Place the wall template anywhere completely within the spellcaster’s control range where it does not touch a model’s base, an obstruction, or an obstacle. When a model enters or ends it's activation in the wall template, it suffers an unboostble POW 12 fire damage roll and the Fire continuous effect. Models within the template gain concealment."
                         }
                     ],
+                    "arcana": 
+                    {
+                        "name": "Reckoning",
+                        "arcanatype": "Trump",
+                        "description": "The warlock can play this card when an enemy model destroys or removes from play a friendly Faction warrior model in the warlock's control range. Friendly Faction models gain +2 to attack and damage rolls against the attacking enemy model/unit. When the enemy model/unit is destroyed or removed from play, choose another enemy/unit to be affected by Reckoning. Reckoning lasts for one round."
+                    },
                     "displayorder": 0
                 }
             ]
@@ -683,6 +701,12 @@
                             "description": "Target friendly Faction model gains Dark Shroud. (While in the melee range of a model with Dark Shroud, enemy models suffer -2 ARM.)."
                         }
                     ],
+                    "arcana": 
+                    {
+                        "name": "Taste of Ashes",
+                        "arcanatype": "Trump",
+                        "description": "The warlock can play this card when a warbeast in its battlegroup is disabled by an enemy attack while in the warlock's control range. When a warbeast in the warlock's battlegroup is disabled by an enemy attack while in the warlock's control range, after the attack is resolved tbe attacker and d3 enemy models nearest to it suffer d3 points of arcane damage. Taste of Ashes lasts for one turn."
+                    },
                     "displayorder": 0
                 }
             ]
@@ -827,6 +851,12 @@
                             "description": "While in the spellcaster’s control range, enemy models gain an additional die on accuracy rolls. Discard the highest die of each roll. Star-Crossed lasts for one round.\n"
                         }
                     ],
+                    "arcana": 
+                    {
+                        "name": "Divergent Path",
+                        "arcanatype": "Trump",
+                        "description": "The warlock can play this card when he is damaged by an enemy attack. The warlock can transfer the damage from this attack without spending a fury point. After the attack is resolved, the warlock can be placed in the location of any of his road markers."
+                    },
                     "displayorder": 0
                 }
             ]
@@ -4138,6 +4168,48 @@
                     "displayorder": 0
                 }
             ]
+        },
+        "arcana": [
+        {
+            "name": "Accursed",
+            "description": "The warlock can play this card when a friendly Faction model with a corpse token is damaged by an enemy attack while in the warlock's control range. While in the warlock's control range, enemy models lose Spectre, Tough, and Undead and cannot have damage removed from them. Additionally, enemy non-warbeast models lose Construct while in the warlock's control range. Accursed lasts for one round."
+        },
+        {
+            "name": "Desolation",
+            "description": "The warlock can play this card when an enemy model advances into and ends its Normal Movement in the warlock's control range. Center a 4\" AOE on the enemy model. You can choose whether the AOE is acid bath, burning earth, forest, rubble, or shallow water terrain. You can choose to remove the AOE from the table at the start of any of your turns."
+        },
+        {
+            "name": "Fortune's Path",
+            "description": "The warlock can play this card when an enemy model misses a friendly Faction model in the warlock's control range with an attack. For one round, friendly Faction models gain +1 to attack and damage rolls against enemy models in the warlock's control range."
+        },
+        {
+            "name": "Ill Omens",
+            "description": "The warlock can play this card when an enemy model destroys a friendly Faction warrior model in the warlock's control range. For one round, enemy models suffer -1 to attack and damage rolls."
+        },
+        {
+            "name": "Labyrinth",
+            "description": "The warlock can play this card when an enemy model advances and ends its movement in the warlock's control range. For one round, enemy models beginning their activations in the warlock's control range suffer -2 SPD that activation."
+        },
+        {
+            "name": "Pandemonium",
+            "description": "The warlock can play this card when an enemy non-warcaster, non-warlock model issues an order whil in the warlock's control range. The model's unit is not affected by the order. Warlock and warcaster units are not affected by Pandemonium."
+        },
+        {
+            "name": "Ruin",
+            "description": "The warlock can play this card when an enemy model targets a model in the warlock's control range with a spell. The spell does not take effect, but it is still considered to be cast and its COST remains spent. Additionally, all enemy upkeep spells in the warlock's control range expire."
+        },
+        {
+            "name": "Sacrifice",
+            "description": "The warlock can plsy this card when an enemy model destroys a friendly Faction model in the warlock's control range. After the destroyed model is removed from the table, you can remove all damage points from each friendly Grymkin model in the warlock's control range."
+        },
+        {
+            "name": "Shroud",
+            "description": "The warlock can play this card when a friendly Faction model is destroyed by an enemy ranged attack while in the warlock's control range. For one round, friendly Faction models gain Stealth while in the warlock's control range."
+        },
+        {
+            "name": "The Shadow",
+            "description": "The warlock can play this card when an enemy model advances into and ends its movement in the melee range of a smaller-based friendly Faction model in the warlock's command range. Immediately add a Faction heavy warbeast to the warlock's battlegroup, placing it in play anywhere completely within 5\" of the smaller-based friendly Faction model. The warbeast cannot advance. The warbeast is removed from play after one round."
         }
+        ]
     ]
 }
