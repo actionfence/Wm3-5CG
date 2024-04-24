@@ -4185,9 +4185,6 @@
                     "modeltype": [
                         "Arcana"
                     ],
-                    "keywords": [
-                        "Card"
-                    ],
                     "arcana": 
                     {
                         "name": "Accursed",
@@ -4213,9 +4210,6 @@
                     "title": "Arcana",
                     "modeltype": [
                         "Arcana"
-                    ],
-                    "keywords": [
-                        "Card"
                     ],
                     "arcana": 
                     {
@@ -4243,9 +4237,6 @@
                     "modeltype": [
                         "Arcana"
                     ],
-                    "keywords": [
-                        "Card"
-                    ],
                     "arcana": 
                     {
                         "name": "Fortune's Path",
@@ -4271,9 +4262,6 @@
                     "title": "Arcana",
                     "modeltype": [
                         "Arcana"
-                    ],
-                    "keywords": [
-                        "Card"
                     ],
                     "arcana": 
                     {
@@ -4301,9 +4289,6 @@
                     "modeltype": [
                         "Arcana"
                     ],
-                    "keywords": [
-                        "Card"
-                    ],
                     "arcana": 
                     {
                         "name": "Labyrinth",
@@ -4329,9 +4314,6 @@
                     "title": "Arcana",
                     "modeltype": [
                         "Arcana"
-                    ],
-                    "keywords": [
-                        "Card"
                     ],
                     "arcana": 
                     {
@@ -4359,9 +4341,6 @@
                     "modeltype": [
                         "Arcana"
                     ],
-                    "keywords": [
-                        "Card"
-                    ],
                     "arcana": 
                     {
                         "name": "Ruin",
@@ -4387,9 +4366,6 @@
                     "title": "Arcana",
                     "modeltype": [
                         "Arcana"
-                    ],
-                    "keywords": [
-                        "Card"
                     ],
                     "arcana": 
                     {
@@ -4417,9 +4393,6 @@
                     "modeltype": [
                         "Arcana"
                     ],
-                    "keywords": [
-                        "Card"
-                    ],
                     "arcana": 
                     {
                         "name": "Shroud",
@@ -4445,9 +4418,6 @@
                     "title": "Arcana",
                     "modeltype": [
                         "Arcana"
-                    ],
-                    "keywords": [
-                        "Card"
                     ],
                     "arcana": 
                     {
