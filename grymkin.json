@@ -7354,13 +7354,13 @@
                         ]
                     }
                 ]
-            },
-            "arcana":[
-                {
-                    "name" : "Arcana",
-                    "description" : "Description"
-                }
-            ]
-        }
+            }
+        },
+        "arcana":[
+            {
+                "name" : "Arcana",
+                "description" : "Description"
+            }
+        ]
     ]
 }
